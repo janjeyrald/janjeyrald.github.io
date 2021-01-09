@@ -32,13 +32,9 @@ body {
   }
 
 /*Main*/
-
-#hrId{
-    width:100%;
-}
-
 main{
     background-color: #9BDBF4;
+    max-width: 950px;
 }
 
 p, ul, li {
@@ -51,7 +47,7 @@ p, ul, li {
 }
 
 footer, header{
-    border-style: groove 15px;
+    border-style: groove;
     background-color: #FCE181;
     height: 150px;
     align-items: center;
