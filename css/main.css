@@ -36,7 +36,9 @@ h2{
     margin-left: 20px;
 }
 /*Body*/
-
+#content{
+    background-color: whitesmoke;
+}
 body {
     background-color: #5A5560;
     max-width: 960px;
