@@ -3,6 +3,8 @@
 /*Header Style*/
 header {
     background-color: #FCE181; 
+    height: 150px;
+    align-items: center;
   }
 
 #janjeyphoto{
@@ -48,10 +50,9 @@ p, ul, li {
     align-content: center;
 }
 
-footer, header{
-    
+footer{
     background-color: #FCE181;
-    height: 150px;
+    height: 80px;
     align-items: center;
 }
 
