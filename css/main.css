@@ -22,13 +22,11 @@ h1{
 
 body {
     background-color: #9D8D8F;
-  }
-
-#content {
     max-width: 960px;
     margin: 0 auto;
-    background-color: #46344e;
-}
+  }
+
+
 
 /*Main*/
 #hrId{
