@@ -8,6 +8,7 @@ header{
 #janjeyphoto{
     max-width: 200px;
     float: right;
+    margin-bottom: 100px;
 }
 
 h1{
@@ -35,5 +36,7 @@ h1{
 /*Footer*/
 .footerclass{
     text-align: center;
-    background-color: rgb(165, 202, 164);
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #46344e;
 }
