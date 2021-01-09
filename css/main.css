@@ -4,7 +4,9 @@ header{
 }
 
 #janjeyphoto{
+    margin-top: 20%;
     max-width: 300px;
+    float: right;
 }
 
 h1{
