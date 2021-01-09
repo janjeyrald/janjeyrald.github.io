@@ -13,3 +13,8 @@ h1{
     font-family: 'Teko', sans-serif;
     font-size: 5em;
 }
+
+/*Footer*/
+footer{
+    text-align: center;
+}
