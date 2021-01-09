@@ -9,6 +9,7 @@ header{
 }
 
 h1{
+    padding: 50px;
     text-align: center;
     font-family: 'Teko', sans-serif;
     font-size: 5em;
