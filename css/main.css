@@ -56,5 +56,6 @@ footer, header{
 }
 
 #lastupdate, #lastmodified{
-    font-family: 'Glegoo', serif; 
+    font-family: 'Glegoo', serif;
+    text-align: center;
 }
