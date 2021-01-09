@@ -14,7 +14,17 @@ h1{
     font-size: 5em;
 }
 
+/*Main*/
+hr{
+    width:100%;
+    text-align:left;
+    margin-left:0;
+}
+
+
+
 /*Footer*/
-footer{
+.footerclass{
     text-align: center;
+    background-color: rgb(165, 202, 164);
 }
