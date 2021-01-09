@@ -12,8 +12,7 @@ header {
 #janjeyphoto{
     max-width: 150px;
     float: right;
-    margin-bottom: 200px;
-    margin-left: 200px;
+    
 }
 
 h1{
@@ -80,6 +79,7 @@ footer{
     }
     #janjeyphoto
     {
+        float:none;
         max-width: 70px;
     }p, ul, li {
         font-size: 1em; 
