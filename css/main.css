@@ -35,6 +35,7 @@ body {
 main{
     background-color: #9BDBF4;
     max-width: 950px;
+    margin: 0 auto;
 }
 
 p, ul, li {
@@ -51,6 +52,4 @@ footer, header{
     background-color: #FCE181;
     height: 150px;
     align-items: center;
-    margin: 0;
-    padding: 0;
 }
