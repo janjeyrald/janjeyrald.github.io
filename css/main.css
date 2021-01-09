@@ -2,7 +2,8 @@
 
 /*Header Style*/
 header {
-    background-color: #FCE181;  
+    background-color: #FCE181; 
+    height: 150px; 
   }
 
 #janjeyphoto{
@@ -13,7 +14,6 @@ header {
 }
 
 h1{
-    padding: 20px;
     text-align: center;
     font-family: 'Teko', sans-serif;
     font-size: 5em;
