@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glegoo&family=Teko:wght@700&display=swap');
 
 /*Header Style*/
 header {
@@ -39,6 +39,9 @@ main{
     background-color: #9BDBF4;
 }
 
+p, ul, li {
+    font-family: 'Glegoo', serif;
+}
 /*Footer*/
 
 .footclass{
