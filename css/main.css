@@ -42,6 +42,10 @@ main{
 /*Footer*/
 
 .footclass{
+    text-align: center;
+}
+
+footer{
     align-items: center;
     max-width: 960px;
     margin: 0 auto;
