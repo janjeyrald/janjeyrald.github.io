@@ -19,6 +19,7 @@ h1{
     text-align: left;
     font-family: 'Teko', sans-serif;
     font-size: 3em;
+    margin-left: auto;
 }
 
 h2,h3,h4,h5,h6{
@@ -29,6 +30,7 @@ h2,h3,h4,h5,h6{
 #currentdate{
     font-family: 'Glegoo', serif;
     text-align: left; 
+    margin-left: auto;
 }
 /*Body*/
 
