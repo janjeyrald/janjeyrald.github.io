@@ -3,7 +3,6 @@
 /*Header Style*/
 header {
     border-style: groove;
-    border-radius: 15px;;
     background-color: #FCE181; 
     height: 150px;
     align-items: center;
@@ -49,6 +48,7 @@ body {
 /*Main*/
 main{
     background-color: #99DBF3;
+    max-width: 920px;
 }
 
 p, ul, li {
@@ -63,7 +63,6 @@ p, ul, li {
 
 footer{
     border-style: groove;
-    border-radius: 15px;; 
     background-color: #FCE181;
     height: 120px;
     align-items: center;
