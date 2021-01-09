@@ -43,6 +43,9 @@ body {
   }
 
 /*Main*/
+main{
+    background-color: white;
+}
 
 p, ul, li {
     font-family: 'Glegoo', serif;
