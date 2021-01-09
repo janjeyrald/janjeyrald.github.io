@@ -2,7 +2,8 @@
 
 /*Header Style*/
 header {
-    border-radius: 15px;
+    border-style: groove;
+    border-radius: 10px;;
     background-color: #FCE181; 
     height: 150px;
     align-items: center;
@@ -56,7 +57,8 @@ p, ul, li {
 }
 
 footer{
-    border-radius: 15px;
+    border-style: groove;
+    border-radius: 10px;; 
     background-color: #FCE181;
     height: 120px;
     align-items: center;
