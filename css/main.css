@@ -15,7 +15,7 @@ h1{
 }
 
 /*Main*/
-hr{
+#hrId{
     width:100%;
     text-align:left;
     margin-left:0;
