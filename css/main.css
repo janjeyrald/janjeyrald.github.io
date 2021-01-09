@@ -36,6 +36,7 @@ h2,h3,h4,h5,h6{
 /*Body*/
 
 body {
+    background-color: #5A5560;
     max-width: 960px;
     margin: 0 auto;
     padding : 1em;
@@ -44,7 +45,6 @@ body {
 /*Main*/
 main{
     background-color: #9BDBF4;
-    max-width: 920px;
     margin: 0 auto;
     padding: 0;
 }
