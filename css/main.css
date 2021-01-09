@@ -26,21 +26,24 @@ body {
     margin: 0 auto;
   }
 
-
-
 /*Main*/
+
 #hrId{
     width:100%;
     text-align:left;
     margin-left:0;
-    background-color: #9ADCF4;
+}
+
+main{
+    background-color: #9BDBF4;
 }
 
 /*Footer*/
+
 .footclass{
-    text-align: center;
+    align-items: center;
     max-width: 960px;
     margin: 0 auto;
     background-color: #FCE181;
-    height: 200px;
+    height: 70px;
 }
