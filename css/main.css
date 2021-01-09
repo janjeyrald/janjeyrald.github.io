@@ -2,6 +2,7 @@
 
 /*Header Style*/
 header {
+    border-radius: 15px;
     background-color: #FCE181; 
     height: 150px;
     align-items: center;
