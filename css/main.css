@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
 
 /*Header Style*/
-header{
-    background-color: rgb(165, 202, 164);
-}
+header {
+    background-color: #46344e;  
+  }
 
 #janjeyphoto{
     max-width: 200px;
