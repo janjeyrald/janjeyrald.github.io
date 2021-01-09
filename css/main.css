@@ -46,9 +46,8 @@ p, ul, li {
 }
 
 footer, header{
-    border-style: groove;
+    border-style: groove 15px;
     background-color: #FCE181;
-    grid-gap: 2em;
     height: 150px;
     align-items: center;
     margin: 0;
