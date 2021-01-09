@@ -28,7 +28,7 @@ h2,h3,h4,h5,h6{
 #currentdate{
     font-family: 'Glegoo', serif;
     text-align: center;
-    align-content: center;
+    
 }
 /*Body*/
 
@@ -54,7 +54,7 @@ p, ul, li {
 
 .footclass{
     text-align: center;
-    align-content: center;
+    
 }
 
 footer{
@@ -66,5 +66,5 @@ footer{
 #lastupdate, #lastmodified, p{
     font-family: 'Glegoo', serif;
     text-align: center;
-    align-content: center;
+   
 }
