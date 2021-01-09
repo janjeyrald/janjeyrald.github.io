@@ -31,3 +31,6 @@ let fulldate = dayName + ", " + monthName + " " + d.getDate() + ", "+ d.getFullY
 document.getElementById("currentdate").textContent = fulldate;
 
 document.getElementById("currentyear").textContent = year;
+
+let oLastModif = (document.lastModified);
+document.getElementById("lastupdate").innerHTML = oLastModif;
