@@ -19,7 +19,7 @@ let months = [
     "September",
     "October",
     "November",
-    "December",
+    "December"
 ];
 
 let d = new Date();
