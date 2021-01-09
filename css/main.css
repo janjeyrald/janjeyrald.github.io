@@ -55,7 +55,8 @@ footer, header{
     align-items: center;
 }
 
-#lastupdate, #lastmodified{
+#lastupdate, #lastmodified, p{
     font-family: 'Glegoo', serif;
     text-align: center;
+    align-content: center;
 }
