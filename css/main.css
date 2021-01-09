@@ -12,10 +12,15 @@ header {
     margin-left: 20px;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1{
     text-align: center;
     font-family: 'Teko', sans-serif;
     font-size: 5em;
+}
+
+h2,h3,h4,h5,h6{
+    text-align: left;
+    font-family: 'Teko', sans-serif;
 }
 
 /*Body*/
