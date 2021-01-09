@@ -27,8 +27,7 @@ h2,h3,h4,h5,h6{
 
 #currentdate{
     font-family: 'Glegoo', serif;
-    text-align: center;
-    
+    text-align: center; 
 }
 /*Body*/
 
@@ -43,7 +42,6 @@ body {
 main{
     background-color: #9BDBF4;
     max-width: 920px;
-    margin: 0 auto;
     padding: 0;
 }
 
