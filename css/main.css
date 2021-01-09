@@ -54,3 +54,7 @@ footer, header{
     height: 150px;
     align-items: center;
 }
+
+#lastupdate, #lastmodified{
+    font-family: 'Glegoo', serif; 
+}
