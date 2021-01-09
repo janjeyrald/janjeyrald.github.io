@@ -36,7 +36,6 @@ main{
     background-color: #9BDBF4;
     max-width: 920px;
     margin: 0 auto;
-    max-height: fit-content;
 }
 
 p, ul, li {
@@ -46,6 +45,7 @@ p, ul, li {
 
 .footclass{
     text-align: center;
+    align-content: center;
 }
 
 footer, header{
