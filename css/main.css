@@ -3,7 +3,6 @@
 /*Header Style*/
 header {
     background-color: #FCE181; 
-    height: 150px; 
   }
 
 #janjeyphoto{
@@ -48,10 +47,12 @@ p, ul, li {
     text-align: center;
 }
 
-footer{
-    align-items: center;
-    max-width: 960px;
-    margin: 0 auto;
+footer, header{
+    border-style: groove;
     background-color: #FCE181;
-    height: 100px;
+    grid-gap: 2em;
+    height: 150px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
