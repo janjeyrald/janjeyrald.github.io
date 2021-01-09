@@ -9,7 +9,7 @@ header {
     max-width: 200px;
     float: right;
     margin-top: 100px;
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
 h1{
@@ -34,8 +34,9 @@ body {
 /*Main*/
 main{
     background-color: #9BDBF4;
-    max-width: 950px;
+    max-width: 920px;
     margin: 0 auto;
+    max-height: fit-content;
 }
 
 p, ul, li {
