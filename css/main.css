@@ -37,7 +37,7 @@ h2{
 }
 /*Body*/
 #content{
-    background-color: whitesmoke;
+    background-color: #99DBF3;
 }
 body {
     background-color: #5A5560;
@@ -48,7 +48,7 @@ body {
 
 /*Main*/
 main{
-    background-color: white;
+    background-color: #99DBF3;
 }
 
 p, ul, li {
