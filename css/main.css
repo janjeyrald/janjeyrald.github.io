@@ -2,7 +2,7 @@
 
 /*Header Style*/
 header {
-    background-color: #ffffff;  
+    background-color: #FCE181;  
   }
 
 #janjeyphoto{
@@ -12,7 +12,7 @@ header {
 }
 
 h1{
-    padding: 50px;
+    padding: 20px;
     text-align: center;
     font-family: 'Teko', sans-serif;
     font-size: 5em;
@@ -33,6 +33,7 @@ body {
     width:100%;
     text-align:left;
     margin-left:0;
+    background-color: #9ADCF4;
 }
 
 /*Footer*/
@@ -40,6 +41,6 @@ body {
     text-align: center;
     max-width: 960px;
     margin: 0 auto;
-    background-color: #46344e;
+    background-color: #FCE181;
     height: 200px;
 }
