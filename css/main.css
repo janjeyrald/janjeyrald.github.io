@@ -43,11 +43,6 @@ body {
   }
 
 /*Main*/
-main{
-    background-color: #9BDBF4;
-    margin: 0 auto;
-    padding: 0;
-}
 
 p, ul, li {
     font-family: 'Glegoo', serif;
