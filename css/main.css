@@ -10,10 +10,9 @@ header {
   }
 
 #janjeyphoto{
-    max-width: 100px;
+    max-width: 150px;
     float: right;
-    padding: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 h1{
