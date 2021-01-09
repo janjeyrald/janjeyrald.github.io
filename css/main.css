@@ -6,3 +6,8 @@ header{
 #janjeyphoto{
     max-width: 300px;
 }
+
+h1{
+    font-family: 'Teko', sans-serif;
+    font-size: large;
+}
