@@ -1,4 +1,4 @@
-let daynames =[
+let days =[
     "Sunday",
     "Monday",
     "Tuesday",
@@ -23,8 +23,8 @@ let months = [
     "December",
 ];
 
-let d = new.Date();
-let dayName = daynames[d.getDay()];
+let d = new Date();
+let dayName = days[d.getDay()];
 let monthName = months[d.getMonth()];
 let fullDate = dayName + ", " + monthName + " " + d.getDate() + ", "+ d.getFullYear();
 
