@@ -1,13 +1,15 @@
 @media only screen and (min-width: 32.5em){
     h1{
-    font-size: 3em;
+    font-size: 3rem;
+    margin-left: 20px;
     }
 
     h2{
     font-size: 2rem;
     }
-    #janjeyphoto{
+    .janjeyphoto{
     float: right;
     margin-top: 50px;
+    max-width: 200px;
 }
 }

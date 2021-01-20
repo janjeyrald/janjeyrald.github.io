@@ -5,18 +5,18 @@ header {
     border-style: groove;
     background-color: #362417; 
     height: 150px;
-    align-content: center;
   }
 
-#janjeyphoto{
-    max-width: 200px;
+.janjeyphoto{
+    max-width: 150px;
+    margin-top: 10px;
+    margin-left: 20px;
 }
 
 h1{
-    text-align: center;
+    
     font-family: 'Teko', sans-serif;
     font-size: 2rem;
-    margin-left: 20px;
     color: white;
 }
 
@@ -25,10 +25,9 @@ h2,h3,h4,h5,h6{
     font-family: 'Teko', sans-serif;
     color: white;
 }
-h2{
+#h2{
     border-bottom: 1px solid;
     margin-left: 20px;
-    color: white;
 }
 
 #currentdate{
@@ -50,7 +49,7 @@ body {
 /*Main*/
 main{
     background-color: #057EF0;
-    max-width: 920px;
+    max-width: 960px;
 }
 
 p, ul, li, a {
@@ -77,14 +76,9 @@ footer{
    
 }
 
-@media only screen and (max-width: 550px) {
-    h1{
-        font-size: 2em;
+@media only screen and (max-width: 32.5em)
+{
+    .janjeyphoto{
+        max-width: 75px;
     }
-    #janjeyphoto
-    {
-        max-width: 70px;
-    }p, ul, li {
-        font-size: 1em; 
-    }
-  }
+}
