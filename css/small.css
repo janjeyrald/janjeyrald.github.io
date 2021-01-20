@@ -14,10 +14,11 @@ header {
 }
 
 h1{
-    text-align: left;
+    text-align: center;
     font-family: 'Teko', sans-serif;
     font-size: 2rem;
     margin-left: 20px;
+    color: white;
 }
 
 h2,h3,h4,h5,h6{
@@ -53,7 +54,7 @@ main{
     max-width: 920px;
 }
 
-p, ul, li {
+p, ul, li, a {
     font-family: 'Glegoo', serif;
     color: white;
 }
