@@ -3,7 +3,7 @@
 /*Header Style*/
 header {
     border-style: groove;
-    background-color: #FCE181; 
+    background-color: #362417; 
     height: 150px;
     align-items: center;
   }
@@ -23,10 +23,12 @@ h1{
 h2,h3,h4,h5,h6{
     text-align: left;
     font-family: 'Teko', sans-serif;
+    color: white;
 }
 h2{
     border-bottom: 1px solid;
     margin-left: 20px;
+    color: white;
 }
 
 #currentdate{
@@ -36,7 +38,7 @@ h2{
 }
 /*Body*/
 #content{
-    background-color: #99DBF3;
+    background-color: #057EF0;
 }
 body {
     background-color: #5A5560;
@@ -47,12 +49,13 @@ body {
 
 /*Main*/
 main{
-    background-color: #99DBF3;
+    background-color: #057EF0;
     max-width: 920px;
 }
 
 p, ul, li {
     font-family: 'Glegoo', serif;
+    color: white;
 }
 /*Footer*/
 
@@ -63,7 +66,7 @@ p, ul, li {
 
 footer{
     border-style: groove;
-    background-color: #FCE181;
+    background-color: #362417;
     height: 120px;
     align-items: center;
 }
