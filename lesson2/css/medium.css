@@ -1,0 +1,28 @@
+article{
+    max-width: 20%;
+}
+
+header, footer{
+background-color: #362417;
+height: 150px;
+}
+
+body{
+    display: grid;
+    background-color: #057EF0;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+articleOne{
+    grid-column: 1/2;
+}
+
+
+articleOne{
+    grid-column: 2/3;
+}
+
+
+articleOne{
+    grid-column: 3/4;
+}
