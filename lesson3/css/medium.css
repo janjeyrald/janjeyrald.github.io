@@ -1,0 +1,23 @@
+@media only screen and (min-width: 38em){
+    header{
+        align-items: center;
+        text-align: center;
+    }
+    nav ul{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    nav ul li{
+        margin: 8px;
+    }
+    #logo{
+        align-items: center;
+        max-width: 100px;
+    }
+    h1{
+        text-align: center;
+    }
+}

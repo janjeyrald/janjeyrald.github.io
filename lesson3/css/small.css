@@ -1,0 +1,90 @@
+body{
+    margin: 0 auto;
+}
+
+nav{
+    background: #362417;
+    padding: 5px 40px;
+}
+
+nav ul{
+    list-style: none;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li{
+    padding: 15px 0;
+    cursor: pointer;
+   
+}
+
+nav ul li .menu{
+    width: auto;
+    margin: 0 16px;
+    text-align: center;
+}
+
+nav ul li .logo{
+    flex: 1;
+    color: white;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header, footer{
+background-color: #362417;
+height: 100px;
+align-items: center;
+}
+
+h2,h3,h4,h5,h6{
+    font-family: 'Teko', sans-serif;
+    color: #057EF0;
+}
+
+#logo{
+    text-align: center;
+    max-width: 50px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+p, ul, li, a {
+    font-family: 'Glegoo', serif;
+    color: #141414;
+}
+
+h1{
+    color: white;
+    text-align: left;
+    margin-left : 40px;
+    font-family: 'Glegoo', serif;
+    font-size: 1.5em;  
+}
+
+/*Body*/
+
+#colorscheme{
+    max-width: 720px;
+}
+
+main{
+    background-color: white;
+    margin: 50px;
+}
+
+footer{
+    text-align: center;
+}
+
+#lastupdate, #lastmodified, .footclass, #byuilink, #plastupdated{
+    font-family: 'Glegoo', serif;
+    text-align: center;
+    color: white;
+   
+}
