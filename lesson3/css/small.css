@@ -26,11 +26,6 @@ nav ul li .menu{
     text-align: center;
 }
 
-nav ul li .logo{
-    flex: 1;
-    color: white;
-}
-
 nav ul li a {
     color: white;
     text-decoration: none;
@@ -45,6 +40,10 @@ align-items: center;
 h2,h3,h4,h5,h6{
     font-family: 'Teko', sans-serif;
     color: #057EF0;
+}
+
+img{
+    max-width: 300px;
 }
 
 #logo{
@@ -62,16 +61,12 @@ p, ul, li, a {
 h1{
     color: white;
     text-align: left;
-    margin-left : 40px;
-    font-family: 'Glegoo', serif;
-    font-size: 1.5em;  
+    font-family: 'Glegoo', serif; 
+    font-size: 1.5em;
+    margin-left: 30px;
 }
 
 /*Body*/
-
-#colorscheme{
-    max-width: 720px;
-}
 
 main{
     background-color: white;
