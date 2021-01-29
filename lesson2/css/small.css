@@ -100,12 +100,11 @@ h2:nth-of-type(4){
 
 footer{
     text-align: center;
+    padding-top: 40px;
 }
 
 #lastupdate, #lastmodified, .footclass, #byuilink, #plastupdated{
     font-family: 'Glegoo', serif;
     text-align: center;
     color: white;
-    padding: 10px;
-   
 }
