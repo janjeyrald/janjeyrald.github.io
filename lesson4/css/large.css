@@ -1,0 +1,22 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+    nav{
+        line-height: 3rem;
+    }
+    nav button{
+        display: none;
+    }
+
+    nav ul.hide{
+        display: block;
+    }
+    
+    nav ul li a {
+        padding: .6rem 1rem;
+        font-size: 1.5em;
+    }
+
+    #logo{
+        max-width: 120px;
+    }
+} /*end large */
