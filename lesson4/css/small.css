@@ -94,15 +94,6 @@ header, footer{
     grid-template-rows: 1fr 1fr 1fr;
 }
 
-#townBorder{
-    text-align: left;
-    background-color: rgba(240, 240, 240, 0.5);
-    grid-column: 1;
-    grid-row: 3;
-    padding: 30px;
-    margin-bottom: 3em;
-}
-
 @keyframes slide{
     25%{
         background-image: url(/images/preston2.jpg);
@@ -116,6 +107,15 @@ header, footer{
     100%{
         background-image: url(/images/preston2.jpg);
     }
+}
+
+#townBorder{
+    text-align: left;
+    background-color: rgba(240, 240, 240, 0.5);
+    grid-column: 1;
+    grid-row: 3;
+    padding: 30px;
+    margin-bottom: 3em;
 }
 
 #prestonInfo1{
