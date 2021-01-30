@@ -13,10 +13,12 @@
     
     nav ul li a {
         padding: .6rem 1rem;
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     #logo{
         max-width: 120px;
     }
+
+    
 } /*end large */
