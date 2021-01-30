@@ -81,8 +81,8 @@ header, footer{
 
 
 
-.slider{
-    max-width: 600px;
+.hero-image{
+    background-size: cover;
     height: 400px;
     background-image: url(/images/preston1.jpg);
     background-repeat: no-repeat;
@@ -94,21 +94,6 @@ header, footer{
     grid-template-rows: 1fr 1fr 1fr;
 }
 
-@keyframes slide{
-    25%{
-        background-image: url(/images/preston2.jpg);
-    }
-    50%{
-        background-image: url(/images/preston3.jpg);
-    }
-    75%{
-        background-image: url(/images/preston1.jpg);
-    }
-    100%{
-        background-image: url(/images/preston2.jpg);
-    }
-}
-
 #townBorder{
     text-align: left;
     background-color: rgba(240, 240, 240, 0.5);
@@ -116,6 +101,10 @@ header, footer{
     grid-row: 3;
     padding: 30px;
     margin-bottom: 3em;
+}
+
+#townName{
+    color: white;
 }
 
 #prestonInfo1{
