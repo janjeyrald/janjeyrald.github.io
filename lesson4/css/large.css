@@ -17,8 +17,17 @@
     }
 
     #logo{
-        max-width: 120px;
+        max-width: 200px;
     }
+
+    #siteName{
+        font-size: 4em;
+    }
+
+    #townName{
+        font-size: 3rem;
+    }
+    
 
     
 } /*end large */

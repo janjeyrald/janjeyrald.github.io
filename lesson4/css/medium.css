@@ -43,10 +43,19 @@
     #prestonInfo4{
         text-align: center;
     }
-    
 
-    
+    #logo{
+        max-width: 140px;
+    }
 
-    
+    .headerContent{
+        text-align: center;
+    }
+
+    #townName{
+        font-size: 2rem;
+    }
+}
+
 
 /*end medium */ /*end medium */
