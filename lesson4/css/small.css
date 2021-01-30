@@ -73,11 +73,13 @@ nav ul.hide{
 }
 
 header, footer{
-    background-color: #362417;
+    background-color: #00AEEF;
     color: white;
     text-align: center;
     padding: 2px;
 }
+
+
 
 .slider{
     max-width: 600px;
@@ -87,6 +89,18 @@ header, footer{
     background-position: center;
     margin: 10px auto;
     animation: slide 20s infinite;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#townBorder{
+    text-align: left;
+    background-color: rgba(240, 240, 240, 0.5);
+    grid-column: 1;
+    grid-row: 3;
+    padding: 30px;
+    margin-bottom: 3em;
 }
 
 @keyframes slide{
@@ -102,6 +116,30 @@ header, footer{
     100%{
         background-image: url(/images/preston2.jpg);
     }
+}
+
+#prestonInfo1{
+    background-color: rgba(0,0,0,0.2);
+    line-height: 5rem;
+    padding: 1rem;
+}
+
+#prestonInfo2{
+    background-color: rgba(0,0,0,0.2);
+    line-height: 5rem;
+    padding: 1rem;
+}
+
+#prestonInfo3{
+    background-color: rgba(0,0,0,0.2);
+    line-height: 5rem;
+    padding: 1rem;
+}
+
+#prestonInfo4{
+    background-color: rgba(0,0,0,0.2);
+    line-height: 5rem;
+    padding: 1rem;
 }
 
 #byuilink{

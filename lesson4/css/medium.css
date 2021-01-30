@@ -24,26 +24,11 @@
         font-size: .7em;
     }
 
-    main{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-row: 10% 1fr 1fr;
-        grid-gap: 2em;
-    }
-
-    #townName{
-        grid-column: 1/3;
-        grid-row: 1;
-        text-align: center;
-    }
-
     .slider{
-        width: 720px;
-        height: 400px;
-        grid-column: 1/3;
-        grid-row: 2;
-        position: relative;
-    } 
+        background-size: auto;
+    }
+    
+    
 
     
 
