@@ -91,12 +91,10 @@ header, footer{
     padding: 2px;
 }
 
-
-
 .hero-image{
     background-size: cover;
     height: 400px;
-    background-image: url("images/preston1.jpg");
+    background-image: url("/lesson4/images/preston1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     margin: 10px auto;
@@ -108,16 +106,16 @@ header, footer{
 
 @keyframes slide{
     25%{
-        background-image: url("images/preston2.jpg");
+        background-image: url("/lesson4/images/preston2.jpg");
     }
     50%{
-        background-image: url("images/preston3.jpg");
+        background-image: url("/lesson4/images/preston3.jpg");
     }
     75%{
-        background-image: url("images/preston1.jpg");
+        background-image: url("/lesson4/images/preston1.jpg");
     }
     100%{
-        background-image: url("images/preston2.jpg");
+        background-image: url("/lesson4/images/preston2.jpg");
     }
 }
 
