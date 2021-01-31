@@ -96,7 +96,7 @@ header, footer{
 .hero-image{
     background-size: cover;
     height: 400px;
-    background-image: url("/images/preston1.jpg");
+    background-image: url(images/preston1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     margin: 10px auto;
