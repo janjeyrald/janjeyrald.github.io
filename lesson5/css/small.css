@@ -1,0 +1,182 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+body{
+    margin: 0;
+}
+
+#siteName{
+    font-size: 3em;
+}
+
+#content{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Teko', sans-serif;
+}
+
+p, a, div{
+    font-family: 'Glegoo', serif;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.headerContent{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    text-align: left;
+    margin-left: 1rem;
+}
+#logo{
+    margin-top: 10px;
+    max-width: 120px;
+    height: auto;
+  }
+
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+}
+
+nav {
+    background-color: #ccc;
+    font-family: Verdana, sans-serif;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li.activeMenu a{
+    background-color: rgba(15, 134, 189, 0.589);
+    color: white;
+}
+
+nav ul li a:hover{
+    background-color: rgba(62, 213, 240, 0.4);
+    color: white;
+}
+
+nav ul.hide{
+    display: none;
+}
+
+header, footer{
+    background-color: #00AEEF;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+.hero-image{
+    background-size: cover;
+    height: 400px;
+    background-image: url("/lesson4/images/preston1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px auto;
+    animation: slide 20s infinite;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+@keyframes slide{
+    25%{
+        background-image: url("/lesson4/images/preston2.jpg");
+    }
+    50%{
+        background-image: url("/lesson4/images/preston3.jpg");
+    }
+    75%{
+        background-image: url("/lesson4/images/preston1.jpg");
+    }
+    100%{
+        background-image: url("/lesson4/images/preston2.jpg");
+    }
+}
+
+#townBorder{
+    text-align: left;
+    background-color: rgba(240, 240, 240, 0.5);
+    grid-column: 1;
+    grid-row: 3;
+    padding: 30px;
+    margin-bottom: 3em;
+}
+
+#townName{
+    color: white;
+}
+
+#prestonInfo1{
+    background-color: rgba(0,0,0,0.2);
+    line-height: 5rem;
+    padding: 1rem;
+    border-style: dashed;
+}
+
+#prestonInfo2{
+    background-color: rgba(0,0,0,0.2);
+    line-height: 5rem;
+    padding: 1rem;
+    border-style: dashed;
+}
+
+#prestonInfo3{
+    background-color: rgba(0,0,0,0.2);
+    line-height: 5rem;
+    padding: 1rem;
+    border-style: dashed;
+}
+
+#prestonInfo4{
+    background-color: rgba(0,0,0,0.2);
+    line-height: 5rem;
+    padding: 1rem;
+    border-style: dashed;
+}
+
+#byuilink{
+    color: white;
+}
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
+
+
+
+
+
+
+
+
+
