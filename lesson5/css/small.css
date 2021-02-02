@@ -82,12 +82,12 @@ nav ul li a {
 }
 
 nav ul li.activeMenu a{
-    background-color: rgba(15, 134, 189, 0.589);
+    background-color: #00AEEF;
     color: white;
 }
 
 nav ul li a:hover{
-    background-color: rgba(62, 213, 240, 0.4);
+    background-color: #172A3A;
     color: white;
 }
 
@@ -144,10 +144,12 @@ nav ul.hide{
     position: absolute;
     font-size: .8em;
     top: 30px;
+    color: #172A3A;
 }
 
 #townName{
     margin-left: 5px;
+    color: #172A3A;
 }
 
 #prestonInfo2{
