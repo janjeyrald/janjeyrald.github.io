@@ -1,5 +1,24 @@
 /* 35em is also 560px when basefont is 16px */
 @media only screen and (min-width: 35rem) {
+    
+    /*Header*/
+
+    #logo{
+        top: 5px;
+        left: 45%;
+      }
+    
+    #siteName{
+        font-size: 2.4em;
+        top: 58px;
+        left: 38%;
+    }
+    
+    #siteTagLine{
+        left: 36%;
+        top: 110px;
+    }
+    
     nav{
         display: flex;
         justify-content: center;
