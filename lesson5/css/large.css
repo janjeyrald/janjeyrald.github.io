@@ -13,7 +13,7 @@
     
     nav ul li a {
         padding: .6rem 1rem;
-        font-size: 1.3em;
+        font-size: 1em;
     }
 
     #logo{
@@ -26,6 +26,16 @@
 
     #townName{
         font-size: 3rem;
+    }
+
+    #townBorder{
+        top:200px;
+    }
+
+    .weatherSummary{
+        font-size: 1em;
+        top: 40px;
+        left: 600px;
     }
     
 

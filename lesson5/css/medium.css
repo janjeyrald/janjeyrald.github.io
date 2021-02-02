@@ -28,6 +28,21 @@
         background-size: auto;
     }
     
+    .weatherSummary{
+        top: 30px;
+        left: 50px;
+        padding: 20px 60px;
+    }
+
+    #townBorder{
+        padding-right: 120px;
+        margin-bottom: 3em;
+    }
+
+    #townName{
+        margin-left: 100px;
+    }
+
     #prestonInfo1{
         text-align: center;
     }

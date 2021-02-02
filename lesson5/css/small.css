@@ -7,6 +7,15 @@ body{
     margin: 0;
 }
 
+/************************Header*************************/
+
+header, footer{
+    background-color: #00AEEF;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
 #siteName{
     font-size: 3em;
 }
@@ -42,6 +51,8 @@ header{
     max-width: 120px;
     height: auto;
   }
+
+/***************Navigation******************/
 
 nav button{
     margin: .2rem 2%;
@@ -84,12 +95,10 @@ nav ul.hide{
     display: none;
 }
 
-header, footer{
-    background-color: #00AEEF;
-    color: white;
-    text-align: center;
-    padding: 2px;
-}
+
+
+
+/***************************Main*****************************/
 
 .hero-image{
     background-size: cover;
@@ -99,9 +108,7 @@ header, footer{
     background-position: center;
     margin: 10px auto;
     animation: slide 20s infinite;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    position: relative;
 }
 
 @keyframes slide{
@@ -121,16 +128,28 @@ header, footer{
 
 #townBorder{
     text-align: left;
-    background-color: rgba(240, 240, 240, 0.5);
-    grid-column: 1;
-    grid-row: 3;
-    padding: 30px;
+    background-color: rgba(240, 240, 240, 0.8);
+    padding-right: 70px;
     margin-bottom: 3em;
+    position: absolute;
+    top:300px;
+}
+
+.weatherSummary{
+    text-align: left;
+    background-color: rgba(240, 240, 240, 0.8);
+    padding: 10px;
+    padding-right: 55px;
+    margin-bottom: 3em;
+    position: absolute;
+    font-size: .8em;
+    top: 30px;
 }
 
 #townName{
-    color: white;
+    margin-left: 5px;
 }
+
 
 #prestonInfo1{
     background-color: rgba(0,0,0,0.2);
