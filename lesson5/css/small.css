@@ -16,7 +16,7 @@ header, footer{
     padding: 2px;
 }
 
-#content{
+main{
     max-width: 1080px;
     margin: 0 auto;
     padding: 0;
@@ -24,10 +24,12 @@ header, footer{
 
 h1, h2, h3, h4, h5, h6{
     font-family: 'Teko', sans-serif;
+    color: #172A3A;
 }
 
 p, a, div{
     font-family: 'Glegoo', serif;
+    color: #172A3A;
 }
 
 header{
@@ -109,7 +111,7 @@ nav ul.hide{
     background-image: url("/lesson5/images/preston1.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    margin: 0 auto;
+    margin: 5px auto;
     animation: slide 20s infinite;
     position: relative;
 }
@@ -176,9 +178,68 @@ nav ul.hide{
     border-style: dashed;
 }
 
-#byuilink{
+#byuilink, .footclass, #lastModif, #todaysDate{
     color: white;
 }
+
+/*Main*/
+
+/*Table*/
+
+.fiveDayForeCast{
+    display: none;
+    margin: 10px auto;
+}
+
+/*Article*/
+#articleHeading{
+    font-size: 1.8em;
+}
+
+.prestonArticle{
+    padding: 20px;
+}
+
+.prestonArticle img{
+    max-width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 5px #999;
+}
+
+#more {
+    display:none;
+}
+
+/*Contact Info*/
+#prestonMap{
+    display: none;
+}
+
+.prestonContact{
+    text-align: center;
+}
+
+.prestonContactWrapper{
+    margin: 10px auto;
+    background-color: ;
+}
+
+#prestonContactHeading{
+    font-size: 1.8em;
+}
+
+#locationIcon{
+    max-width: 20px;
+}
+
+.socialIcons img{
+    display: inline;
+    max-width: 40px;
+}
+
+
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";

@@ -89,6 +89,67 @@
     #townName{
         font-size: 2rem;
     }
+
+    /*Table*/
+
+    .fiveDayForeCast{
+        display:flex;
+        flex-direction: column;
+    }
+
+    #foreCastHeading{
+        text-align: center;
+        font-size: 2em;  
+     }
+     
+     #tableForeCast{
+         display: flex;
+     }
+     
+     #tableForeCast table{
+         text-align: center;
+         margin: 1rem auto;
+     }
+     
+     table, th, td{
+         border: 1px solid black;
+         border-collapse: collapse;
+     }
+     
+     th, td{
+         padding: 15px;
+         text-align: center;
+     }
+     
+     table {
+         border-spacing: 5px;
+         width: 50%;
+       }
+     
+    /*Article*/
+    .prestonArticle img{
+        max-width: 30%;
+        margin: 20px;
+        float: right;
+    }
+
+    .prestonContactWrapper{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .prestonContact{
+        padding:50px;
+    }
+
+    #prestonMap{
+        display: flex;
+        max-width: 50%;
+        max-height: 50%;
+    }
+    /*Contact*/
+
 }
 
 
