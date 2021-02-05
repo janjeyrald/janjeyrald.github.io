@@ -157,27 +157,6 @@ nav ul.hide{
     color: #172A3A;
 }
 
-#prestonInfo2{
-    background-color: rgba(0,0,0,0.2);
-    line-height: 5rem;
-    padding: 1rem;
-    border-style: dashed;
-}
-
-#prestonInfo3{
-    background-color: rgba(0,0,0,0.2);
-    line-height: 5rem;
-    padding: 1rem;
-    border-style: dashed;
-}
-
-#prestonInfo4{
-    background-color: rgba(0,0,0,0.2);
-    line-height: 5rem;
-    padding: 1rem;
-    border-style: dashed;
-}
-
 #byuilink, .footclass, #lastModif, #todaysDate{
     color: white;
 }
