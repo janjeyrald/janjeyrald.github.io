@@ -1,0 +1,238 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+body{
+    margin: 0;
+}
+
+/************************Header*************************/
+
+header, footer{
+    background-color: #00AEEF;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+main{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Teko', sans-serif;
+    color: #172A3A;
+}
+
+p, a, div{
+    font-family: 'Glegoo', serif;
+    color: #172A3A;
+}
+
+header{
+    position:relative;
+    height: 165px;
+}
+
+#logo{
+    position: absolute;
+    max-width: 120px;
+    top: 5px;
+    left: 10px;
+  }
+
+  #siteName{
+    font-size: 2em;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+
+#siteTagLine{
+    position: absolute;
+    left: 10px;
+    top: 100px;
+}
+
+/***************Navigation******************/
+
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+}
+
+nav {
+    background-color: #ccc;
+    font-family: Verdana, sans-serif;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li.activeMenu a{
+    background-color: #00AEEF;
+    color: white;
+}
+
+nav ul li a:hover{
+    background-color: #172A3A;
+    color: white;
+}
+
+nav ul.hide{
+    display: none;
+}
+
+
+
+
+/***************************Main*****************************/
+
+.hero-image{
+    background-size: cover;
+    height: 400px;
+    background-image: url("/lesson6/images/preston1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5px auto;
+    animation: slide 20s infinite;
+    position: relative;
+}
+
+@keyframes slide{
+    25%{
+        background-image: url("/lesson6/images/preston2.jpg");
+    }
+    50%{
+        background-image: url("/lesson6/images/preston3.jpg");
+    }
+    75%{
+        background-image: url("/lesson6/images/preston1.jpg");
+    }
+    100%{
+        background-image: url("/lesson6/images/preston2.jpg");
+    }
+}
+
+#townBorder{
+    text-align: left;
+    background-color: rgba(240, 240, 240, 0.8);
+    padding-right: 70px;
+    margin-bottom: 3em;
+    position: absolute;
+    top:300px;
+}
+
+.weatherSummary{
+    text-align: left;
+    background-color: rgba(240, 240, 240, 0.8);
+    padding: 10px;
+    padding-right: 55px;
+    margin-bottom: 3em;
+    position: absolute;
+    font-size: .8em;
+    top: 30px;
+    color: #172A3A;
+}
+
+#townName{
+    margin-left: 5px;
+    color: #172A3A;
+}
+
+#byuilink, .footclass, #lastModif, #todaysDate{
+    color: white;
+}
+
+/*Main*/
+
+/*Table*/
+
+.fiveDayForeCast{
+    display: none;
+    margin: 10px auto;
+}
+
+/*Article*/
+#articleHeading{
+    font-size: 1.8em;
+}
+
+.prestonArticle{
+    padding: 20px;
+}
+
+.prestonArticle img{
+    max-width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 5px #999;
+}
+
+#more {
+    display:none;
+}
+
+/*Contact Info*/
+#prestonMap{
+    display: none;
+}
+
+.prestonContact{
+    text-align: center;
+}
+
+.prestonContactWrapper{
+    margin: 10px auto;
+    background-color: ;
+}
+
+#prestonContactHeading{
+    font-size: 1.8em;
+}
+
+#locationIcon{
+    max-width: 20px;
+}
+
+.socialIcons img{
+    display: inline;
+    max-width: 40px;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
+
+
+
+
+
+
+
+
+

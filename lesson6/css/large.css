@@ -1,0 +1,60 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+    /*Header*/
+
+    #logo{
+        top: 5px;
+        left: 46%;
+      }
+    
+    #siteName{
+        font-size: 2.4em;
+        top: 58px;
+        left: 38%;
+    }
+    
+    #siteTagLine{
+        left: 40%;
+        top: 120px;
+    }
+    
+    nav{
+        line-height: 3rem;
+    }
+    nav button{
+        display: none;
+    }
+
+    nav ul.hide{
+        display: block;
+    }
+    
+    nav ul li a {
+        padding: .6rem 1rem;
+        font-size: 1em;
+    }
+
+    #siteName{
+        font-size: 3em;
+    }
+
+    #townName{
+        font-size: 3rem;
+    }
+
+    #townBorder{
+        top:200px;
+    }
+
+    .weatherSummary{
+        font-size: 1em;
+        top: 40px;
+        left: 600px;
+    }
+    
+    /*Article*/
+    
+
+
+    
+} /*end large */
