@@ -105,30 +105,14 @@ nav ul.hide{
 
 /***************************Main*****************************/
 
-.hero-image{
+.hero-div{
     background-size: cover;
-    height: 400px;
-    background-image: url("/lesson6/images/preston1.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
     margin: 5px auto;
-    animation: slide 20s infinite;
     position: relative;
 }
 
-@keyframes slide{
-    25%{
-        background-image: url("/lesson6/images/preston2.jpg");
-    }
-    50%{
-        background-image: url("/lesson6/images/preston3.jpg");
-    }
-    75%{
-        background-image: url("/lesson6/images/preston1.jpg");
-    }
-    100%{
-        background-image: url("/lesson6/images/preston2.jpg");
-    }
+.hero-image{
+    max-width: 100%;
 }
 
 #townBorder{
@@ -137,7 +121,8 @@ nav ul.hide{
     padding-right: 70px;
     margin-bottom: 3em;
     position: absolute;
-    top:300px;
+    top:30px;
+    right: 0;
 }
 
 .weatherSummary{

@@ -43,16 +43,30 @@
     </nav>
    
     <main>
-        <div class="hero-image">
+        <div class="hero-div">
+            <picture>
+                <source media="(max-width: 560px)" 
+                srcset="/lesson6/images/wdd230_image_franklinOriginal_400px_small.jpg"/>
+                <source media="(max-width: 800px)" 
+                srcset="/lesson6/images/wdd230_image_franklinOriginal_800px_medium.jpg"/>
+                <source media="(max-width: 1200px)" 
+                srcset="/lesson6/images/wdd230_image_franklinOriginal_1200px_large.jpg"/>
+                <img class="hero-image" 
+                src="/lesson6/images/wdd230_image_franklinOriginal_2000px.jpg" alt="preston idaho">
+            </picture>
             <div id="townBorder"><h2 id="townName">Preston Idaho</h2></div>
             <section class="weatherSummary">
                 <h2>Weather Summary</h2>
                 <hr>
-                <p>Currently: <span>Sunny</span></p>
-                <p>High: <span>76&deg; F </span></p>
-                <p>Wind Chill: <span>&degF</span></p>
-                <p>Humidity: <span>69%</span></p>
-                <p>Wind Speed: <span>5 mph</span></p>
+                <span id="currentWeather">Currently:</span> <span id="condition">Sunny</span>
+                <br>
+                <span id="temperature">High:</span> <span id="currentTemp">76</span>&deg; F </span>
+                <br>
+                <span id="windChill">Wind Chill:</span> <span><span id="windChillInput">&degF</span>
+                <br>
+                <span id="humidity">Humidity:</span> <span id="humidityResult">69%</span>
+                <br>
+                <span id="wind">Wind Speed:</span> <span><span id="windSpeed">5</span> mph</span>
             </section>
         </div>
         <div class="fiveDayForeCast">
@@ -159,5 +173,6 @@
     <script src="js/scripts.js"></script>
     <script src="js/lastmodified.js"></script>
     <script src="js/readMore.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 </html>
