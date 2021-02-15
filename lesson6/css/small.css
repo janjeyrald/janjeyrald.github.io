@@ -115,16 +115,6 @@ nav ul.hide{
     max-width: 100%;
 }
 
-#townBorder{
-    text-align: left;
-    background-color: rgba(240, 240, 240, 0.8);
-    padding-right: 70px;
-    margin-bottom: 3em;
-    position: absolute;
-    top:30px;
-    right: 0;
-}
-
 .weatherSummary{
     text-align: left;
     background-color: rgba(240, 240, 240, 0.8);
@@ -140,6 +130,7 @@ nav ul.hide{
 #townName{
     margin-left: 5px;
     color: #172A3A;
+    text-align: center;
 }
 
 #byuilink, .footclass, #lastModif, #todaysDate{
