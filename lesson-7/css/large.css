@@ -38,22 +38,47 @@
         font-size: 3em;
     }
 
-    #townName{
-        font-size: 3rem;
-    }
+    /*----------------------------Main----------------------------*/
+.wgImgContainer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr .5fr;
+    grid-gap: 2em;
+}
 
-    #townBorder{
-        top:350px;
-    }
+#wgImg1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
 
-    .weatherSummary{
-        font-size: 1em;
-        top: 40px;
-        left: 600px;
-    }
-    
-    /*Article*/
-    
+#wgImg2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#wgImg3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+#wgImg4{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#wgImg5{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#wgImg6{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+img{
+    max-width: 100%;
+}
+
 
 
     
