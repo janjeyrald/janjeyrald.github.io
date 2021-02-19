@@ -100,99 +100,13 @@ nav ul.hide{
     display: none;
 }
 
-
-
-
-/***************************Main*****************************/
-
-.hero-div{
-    background-size: cover;
-    margin: 5px auto;
-    position: relative;
-}
-
-.hero-image{
-    max-width: 100%;
-}
-
-.weatherSummary{
-    text-align: left;
-    background-color: rgba(240, 240, 240, 0.8);
-    padding: 10px;
-    padding-right: 55px;
-    margin-bottom: 3em;
-    position: absolute;
-    font-size: .8em;
-    top: 30px;
-    color: #172A3A;
-}
-
-#townName{
-    margin-left: 5px;
-    color: #172A3A;
-    text-align: center;
-}
-
 #byuilink, .footclass, #lastModif, #todaysDate{
     color: white;
 }
 
-/*Main*/
-
-/*Table*/
-
-.fiveDayForeCast{
-    display: none;
-    margin: 10px auto;
-}
-
-/*Article*/
-#articleHeading{
-    font-size: 1.8em;
-}
-
-.prestonArticle{
-    padding: 20px;
-}
-
-.prestonArticle img{
-    max-width: 100%;
-    padding: 20px;
-    border: 1px solid #ccc;
-    box-shadow: 5px 5px 5px #999;
-}
-
-#more {
-    display:none;
-}
-
-/*Contact Info*/
-#prestonMap{
-    display: none;
-}
-
-.prestonContact{
-    text-align: center;
-}
-
-.prestonContactWrapper{
-    margin: 10px auto;
-}
-
-#prestonContactHeading{
-    font-size: 1.8em;
-}
-
-#locationIcon{
-    max-width: 20px;
-}
-
-.socialIcons img{
-    display: inline;
-    max-width: 40px;
-}
-
 /*----------------------------------Weather Gallery----------------------------------*/
+
+/*--------------------------------------Main--------------------------------------*/
 article img[data-src] {
     filter: blur(5px);
     }
@@ -201,6 +115,15 @@ article img{
     filter: blur(0px);
     transition: filter 0.5s;
   }
+
+main{
+    text-align: center;
+}
+
+main h2{
+    font-size: 3rem;
+}
+
 
 
 /*----- Clearfix: Force an Element not to collapse -----*/
