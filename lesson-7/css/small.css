@@ -124,6 +124,9 @@ main h2{
     font-size: 3rem;
 }
 
+picture:hover:nth-child(n){
+    box-shadow: 10px 10px 14px #000000;
+}
 
 
 /*----- Clearfix: Force an Element not to collapse -----*/
