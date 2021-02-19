@@ -94,14 +94,17 @@
     grid-column: 3/4;
     grid-row: 4/5;
 }
+
 #wgImg9{
     grid-column: 2;
     grid-row: 5/6;
 }
 
 picture:hover:nth-child(n){
-    transform: (1.3);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    transform: scale(1.3);
 }
+
 }
 
 
