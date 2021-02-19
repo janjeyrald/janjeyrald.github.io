@@ -132,11 +132,11 @@ main h2{
     transition: 1s;
 }
 
-picture:nth-child(n){
+figure:nth-child(n){
     margin: 15px;
 }
 
-picture:hover:nth-child(n){
+figure:hover:nth-child(n){
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
     transform: scale(1.05);
 }
