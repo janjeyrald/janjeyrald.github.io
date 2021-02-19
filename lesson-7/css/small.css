@@ -124,10 +124,26 @@ main h2{
     font-size: 3rem;
 }
 
-picture:hover:nth-child(n){
-    box-shadow: 10px 10px 14px #000000;
+.wgImgContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    transition: 1s;
 }
 
+picture:nth-child(n){
+    margin: 20px;
+}
+
+picture:hover:nth-child(n){
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    transform: scale(1.1);
+}
+
+img{
+    max-width: 100%;
+}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
