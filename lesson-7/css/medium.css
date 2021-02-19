@@ -51,7 +51,7 @@
 .wgImgContainer{
     display:grid;
     grid-template-columns: 10% 1fr 1fr 10%;
-    grid-template-rows: 1fr 1fr 1fr 1fr .3fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr .3fr;
     grid-gap: .5em;
 }
 
@@ -85,14 +85,18 @@
     grid-row: 3/4;
 }
 
-#wgImg5{
+#wgImg7{
     grid-column: 2/3;
     grid-row: 4/5;
 }
 
-#wgImg6{
+#wgImg8{
     grid-column: 3/4;
     grid-row: 4/5;
+}
+#wgImg9{
+    grid-column: 2;
+    grid-row: 5/6;
 }
 
 img{
