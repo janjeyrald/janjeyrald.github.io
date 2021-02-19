@@ -56,6 +56,11 @@ p, ul, li, a {
     font-family: 'Glegoo', serif;
     color: white;
 }
+
+li#lazy{
+    list-style: none;
+    margin-left: 5.5rem;
+}
 /*Footer*/
 
 .footclass{
@@ -72,9 +77,10 @@ footer{
 
 #lastupdate, #lastmodified, p{
     font-family: 'Glegoo', serif;
-    text-align: center;
-   
+    text-align: center; 
 }
+
+
 
 @media only screen and (max-width: 32.5em)
 {
