@@ -12,11 +12,12 @@ h1 {
   }
   
 
+  article img[data-src] {
+    filter: blur(5px);
+    }
+
 article img{
     filter: blur(0px);
     transition: filter 0.5s;
   }
   
-article img[data-src] {
-    filter: blur(5px);
-    }
