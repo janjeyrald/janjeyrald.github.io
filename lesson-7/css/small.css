@@ -193,11 +193,11 @@ nav ul.hide{
 }
 
 /*----------------------------------Weather Gallery----------------------------------*/
-picture img[data-src] {
+article img[data-src] {
     filter: blur(5px);
     }
 
-picture img{
+article img{
     filter: blur(0px);
     transition: filter 0.5s;
   }
