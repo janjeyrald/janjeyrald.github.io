@@ -43,113 +43,21 @@
         font-size: .7em;
     }
 
-    .slider{
-        background-size: auto;
-    }
-    
-    .weatherSummary{
-        top: 30px;
-        left: 50px;
-        padding: 20px 60px;
-    }
-
-    #townBorder{
-        padding-right: 120px;
-        margin-bottom: 3em;
-    }
-
-    #townName{
-        margin-left: 100px;
-    }
-
-    #prestonInfo1{
-        text-align: center;
-    }
-    
-    #prestonInfo2{
-        text-align: center; 
-    }
-    
-    #prestonInfo3{
-        text-align: center;
-    }
-    
-    #prestonInfo4{
-        text-align: center;
-    }
-
     #logo{
         max-width: 140px;
     }
 
-    .headerContent{
-        text-align: center;
-    }
+/*----------------------------Main----------------------------*/
+main{
+    display:grid;
+    grid-template-columns: 10% 1fr 1fr 1fr 10%;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content:center;
+    align-items: center;
+}
 
-    #townName{
-        font-size: 2rem;
-    }
 
-    /*Table*/
-
-    .fiveDayForeCast{
-        display:flex;
-        flex-direction: column;
-    }
-
-    #foreCastHeading{
-        text-align: center;
-        font-size: 2em;  
-     }
-     
-     #tableForeCast{
-         display: flex;
-     }
-     
-     #tableForeCast table{
-         text-align: center;
-         margin: 1rem auto;
-     }
-     
-     table, th, td{
-         border: 1px solid black;
-         border-collapse: collapse;
-     }
-     
-     th, td{
-         padding: 15px;
-         text-align: center;
-     }
-     
-     table {
-         border-spacing: 5px;
-         width: 50%;
-       }
-     
-    /*Article*/
-    .prestonArticle img{
-        max-width: 30%;
-        margin: 20px;
-        float: right;
-    }
-
-    .prestonContactWrapper{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-around;
-    }
-
-    .prestonContact{
-        padding:50px;
-    }
-
-    #prestonMap{
-        display: flex;
-        max-width: 50%;
-        max-height: 50%;
-    }
-    /*Contact*/
-
+    
 }
 
 
