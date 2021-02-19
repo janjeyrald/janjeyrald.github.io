@@ -193,6 +193,15 @@ nav ul.hide{
     max-width: 40px;
 }
 
+/*----------------------------------Weather Gallery----------------------------------*/
+picture img[data-src] {
+    filter: blur(5px);
+    }
+
+picture img{
+    filter: blur(0px);
+    transition: filter 0.5s;
+  }
 
 
 /*----- Clearfix: Force an Element not to collapse -----*/
