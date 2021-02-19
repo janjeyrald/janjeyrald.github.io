@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description"
-        content="Planning and Developing design principles web page.">
+    <meta name="description" content="Planning and Developing design principles web page.">
     <title>CloudSky Weather</title>
     <!-- STYLE SHEETS -->
     <link href="css/normalize.css" rel="stylesheet">
@@ -17,106 +17,131 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Glegoo:wght@700&family=Teko:wght@700&display=swap"
-     rel="stylesheet">
+        rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico">
 </head>
+
 <body>
     <div id="content">
         <marquee id="pancakes"></marquee>
-    <header class="clearfix">
-    <div class="headerContent">
-        <img src="images/CSlogo.png" alt="CloudSky Weather Info Logo" id="logo">
-        <h1 id="siteName">CloudSky Weather</h1>
-        <p id="siteTagLine">Weather update that you should know.</p>
-    </div>
-    </header>
-    <nav>
-        <button onclick="toggleMenu()">&#9776;</button>
-        <ul id="primaryNav" class="hide">
-            <li><a href="#">Home</a></li>
-            <li class="activeMenu"><a href="#">Preston</a></li>
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>
-            <li><a href="#">Storm Center</a></li> 
-            <li><a href="#">Gallery</a></li>     
-        </ul>
-    </nav>
-   
-    <main>
-        <h2 id="wgHeading">Weather Gallery</h2>
-        <div class="wgImgContainer">
+        <header class="clearfix">
 
-            <picture id="wgImg1">
-                <figure>
-                <img src="images/imgplaceholder.png" data-src="images/idaho-alex-lemoing-vQHL52Xzd3s-unsplash.jpg" alt="Random Landscape image" />
-                    <figcaption>The Garden Tomb</figcaption>
-                </figure>
-            </picture>
+            <div class="headerContent">
+                <img src="images/CSlogo.png" alt="CloudSky Weather Info Logo" id="logo">
+                <h1 id="siteName">CloudSky Weather</h1>
+                <p id="siteTagLine">Weather update that you should know.</p>
+            </div>
+        </header>
+        <nav>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="#">Home</a></li>
+                <li class="activeMenu"><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
 
-            <picture id="wgImg2">
-                <figure>
-                    <img src="images/imgplaceholder.png" data-src="images/idaho-clayton-tBLiSp022pQ-unsplash.jpg" alt="Random Landscape image" />
+        <main>
+            <h2 id="wgHeading">Weather Gallery</h2>
+            <div class="wgImgContainer">
+                <figure id="wgImg1">
+                    <picture>
+                        <img src="images/imgplaceholder.png"
+                            data-src="images/idaho-alex-lemoing-vQHL52Xzd3s-unsplash.jpg"
+                            alt="Random Landscape image" />
+                    </picture>
                     <figcaption>The Garden Tomb</figcaption>
                 </figure>
-            </picture>
 
-            <picture id="wgImg3">
-                <figure>
-                    <img src="images/imgplaceholder.png" data-src="images/idaho-c-z-shi-Ba0RMbU-SP8-unsplash.jpg" alt="Random Landscape image" />
+                <figure id="wgImg2">
+                    <picture>
+                        <img src="images/imgplaceholder.png" data-src="images/idaho-clayton-tBLiSp022pQ-unsplash.jpg"
+                            alt="Random Landscape image" />
+                    </picture>
                     <figcaption>The Garden Tomb</figcaption>
                 </figure>
-            </picture>
 
-            <picture id="wgImg4">
-                <figure>
-                    <img src="images/imgplaceholder.png" data-src="images/idaho-ian-scargill-0tvIQ9ZLjcc-unsplash.jpg" alt="Random Landscape image" />
-                    <figcaption>The Garden Tomb</figcaption>
-                </figure>
-            </picture>
+                <figure id="wgImg3">
+                    <picture>
+                        <img src="images/imgplaceholder.png" data-src="images/idaho-c-z-shi-Ba0RMbU-SP8-unsplash.jpg"
+                            alt="Random Landscape image" />
 
-            <picture id="wgImg5">
-                <figure>
-                    <img src="images/imgplaceholder.png" data-src="images/idaho-patrick-fore-yZjarfLNxa8-unsplash.jpg" alt="Random Landscape image" />
+                    </picture>
                     <figcaption>The Garden Tomb</figcaption>
                 </figure>
-            </picture>
 
-            <picture id="wgImg6">
                 <figure>
-                    <img src="images/imgplaceholder.png" data-src="images/idaho-paul-arterburn-x7mpSrRHoe4-unsplash.jpg" alt="Random Landscape image" />
-                    <figcaption>The Garden Tomb</figcaption>
-                </figure>
-            </picture>
+                    <picture id="wgImg4">
+                        <img src="images/imgplaceholder.png"
+                            data-src="images/idaho-ian-scargill-0tvIQ9ZLjcc-unsplash.jpg"
+                            alt="Random Landscape image" />
 
-            <picture id="wgImg7">
-                <figure>
-                    <img src="images/imgplaceholder.png" data-src="images/idaho-josep-castells-5Mh8iz9vqpY-unsplash.jpg" alt="Random Landscape image" />
+                    </picture>
                     <figcaption>The Garden Tomb</figcaption>
                 </figure>
-            </picture>
 
-            <picture id="wgImg8">
                 <figure>
-                    <img src="images/imgplaceholder.png" data-src="images/idaho-lucy-chian-LYq7W1lRal4-unsplash.jpg" alt="Random Landscape image" />
+                    <picture id="wgImg5">
+                        <img src="images/imgplaceholder.png"
+                            data-src="images/idaho-patrick-fore-yZjarfLNxa8-unsplash.jpg"
+                            alt="Random Landscape image" />
+
+                    </picture>
                     <figcaption>The Garden Tomb</figcaption>
                 </figure>
-            </picture>
-            
-            <picture id="wgImg9">
+
+
                 <figure>
-                    <img src="images/imgplaceholder.png" data-src="images/nikolas-noonan-fQM8cbGY6iQ-unsplash.jpg" alt="Random Landscape image" />
+                    <picture id="wgImg6">
+                        <img src="images/imgplaceholder.png"
+                            data-src="images/idaho-paul-arterburn-x7mpSrRHoe4-unsplash.jpg"
+                            alt="Random Landscape image" />
+
+                    </picture>
                     <figcaption>The Garden Tomb</figcaption>
                 </figure>
-            </picture>
-    
-        </div>
-    </main>
-    <footer>
-        <p class="footclass"> &copy; <span id="currentyear"></span>| Jan C. Cortez | Philippines |
-             <a href="https://www.byui.edu/online" id="byuilink">BYUI Online Learning </a> </p>
-        <p id="lastModif">Last Updated: <span id="lastupdate"></span></p>
-        <p id="todaysDate">Todays Date: <span id="currentdate"></span></p>
-    </footer>
+
+                <figure>
+                    <picture id="wgImg7">
+                        <img src="images/imgplaceholder.png"
+                            data-src="images/idaho-josep-castells-5Mh8iz9vqpY-unsplash.jpg"
+                            alt="Random Landscape image" />
+
+                    </picture>
+                    <figcaption>The Garden Tomb</figcaption>
+                </figure>
+
+                <figure>
+                    <picture id="wgImg8">
+                        <img src="images/imgplaceholder.png" data-src="images/idaho-lucy-chian-LYq7W1lRal4-unsplash.jpg"
+                            alt="Random Landscape image" />
+
+                    </picture>
+                    <figcaption>The Garden Tomb</figcaption>
+                </figure>
+
+                <figure>
+                    <picture id="wgImg9">
+                        <img src="images/imgplaceholder.png" data-src="images/nikolas-noonan-fQM8cbGY6iQ-unsplash.jpg"
+                            alt="Random Landscape image" />
+
+                    </picture>
+                    <figcaption>The Garden Tomb</figcaption>
+                </figure>
+
+
+            </div>
+        </main>
+        <footer>
+            <p class="footclass"> &copy; <span id="currentyear"></span>| Jan C. Cortez | Philippines |
+                <a href="https://www.byui.edu/online" id="byuilink">BYUI Online Learning </a>
+            </p>
+            <p id="lastModif">Last Updated: <span id="lastupdate"></span></p>
+            <p id="todaysDate">Todays Date: <span id="currentdate"></span></p>
+        </footer>
     </div>
     <script src="js/scripts.js"></script>
     <script src="js/lastmodified.js"></script>
@@ -124,12 +149,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({
-        google: {
-         families: [
-         'Glegoo','Teko'
-         ]
-         }
+            google: {
+                families: [
+                    'Glegoo', 'Teko'
+                ]
+            }
         });
     </script>
 </body>
+
 </html>
