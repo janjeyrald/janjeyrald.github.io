@@ -42,4 +42,5 @@ if (dayName == "Friday"){
     document.getElementById("pancakes").style.height= "50px";
     document.getElementById("pancakes").style.padding= "15px";
     document.getElementById("pancakes").style.color= "white";
+    document.getElementById("pancakes").style.textAlign= "center";
 }
