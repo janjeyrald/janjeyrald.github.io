@@ -133,7 +133,7 @@ main h2{
 }
 
 picture:nth-child(n){
-    margin: 20px;
+    margin: 50px;
 }
 
 picture:hover:nth-child(n){
