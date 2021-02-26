@@ -130,6 +130,7 @@ main h2{
     flex-wrap: wrap;
     justify-content: space-around;
     transition: 1s;
+    margin: 0;
 }
 
 figure:nth-child(n){
