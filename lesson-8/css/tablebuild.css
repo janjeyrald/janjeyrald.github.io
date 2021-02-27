@@ -1,0 +1,41 @@
+
+/*---------------------Body---------------------*/
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 auto;
+}
+
+main{
+    margin: 0 auto;
+    width: 520px;
+    margin-top: 10em;
+}
+
+/*---------------------Table--------------------*/
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 520px;
+  }
+
+  th, td, caption{
+      padding: 15px;
+  }
+
+  th{
+      font-weight: 900;
+      font-size: 1.5em;
+  }
+
+  caption{
+      font-weight: bolder;
+      font-size: 3em;
+  }
+
+  td{
+       text-align: center;
+  }
+
+  caption{
+      background-color: #7FB9C2;
+  }
