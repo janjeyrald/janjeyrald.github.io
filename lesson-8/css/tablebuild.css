@@ -5,17 +5,18 @@ body{
     margin: 0 auto;
 }
 
-main{
+div{
+    box-shadow: 10px 10px 10px #628ca6;
     margin: 0 auto;
     width: 520px;
-    margin-top: 10em;
+    margin-top: 10em; 
 }
 
 /*---------------------Table--------------------*/
 table, th, td{
-    border: 1px solid black;
+    border: 1px solid whitesmoke;
     border-collapse: collapse;
-    width: 520px;
+    width: 460px;
   }
 
   th, td, caption{
@@ -24,18 +25,32 @@ table, th, td{
 
   th{
       font-weight: 900;
-      font-size: 1.5em;
+      font-size: 1.4em;
+      color: white;
+      background-color: #628ca6;
   }
 
   caption{
       font-weight: bolder;
       font-size: 3em;
+      background-color: #7FB9C2;
   }
+
 
   td{
        text-align: center;
   }
 
-  caption{
-      background-color: #7FB9C2;
+  
+  tr:nth-child(even){
+    background-color: #e7ffed;
+}
+
+  tr{
+    background-color: #e7f0ed;
   }
+
+  tfoot tr{
+    background-color: #7FB9C2;
+}
+
