@@ -7,7 +7,7 @@ body {
 div {
   box-shadow: 10px 10px 10px #628ca6;
   margin: 0 auto;
-  width: 460px;
+  width: 420px;
   margin-top: 10em;
 }
 
@@ -17,13 +17,13 @@ th,
 td {
   border: 1.1px solid rgba(199, 199, 199, 0.575);
   border-collapse: collapse;
-  width: 460px;
+  width: 420px;
 }
 
 th,
 td,
 caption {
-  padding: 15px;
+  padding: 15px 0 15px;
 }
 
 th {
@@ -43,6 +43,7 @@ caption {
 
 td {
   text-align: center;
+  font-size: 1.2em;
 }
 
 tr:nth-child(even) {
@@ -60,4 +61,5 @@ tfoot tr {
 
 .focus {
    background-color: #628ca6;
+   color: white;
 }
