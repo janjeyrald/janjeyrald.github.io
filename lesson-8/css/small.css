@@ -1,0 +1,169 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+body{
+    margin: 0;
+}
+
+/************************Header*************************/
+
+header, footer{
+    background-color: #00AEEF;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+main{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Teko', sans-serif;
+    color: #172A3A;
+}
+
+p, a, div{
+    font-family: 'Glegoo', serif;
+    color: #172A3A;
+}
+
+header{
+    position:relative;
+    height: 165px;
+}
+
+#logo{
+    position: absolute;
+    max-width: 120px;
+    top: 5px;
+    left: 10px;
+  }
+
+  #siteName{
+    font-size: 2em;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+
+#siteTagLine{
+    position: absolute;
+    left: 10px;
+    top: 100px;
+}
+
+/***************Navigation******************/
+
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+}
+
+nav {
+    background-color: #ccc;
+    font-family: Verdana, sans-serif;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li.activeMenu a{
+    background-color: #00AEEF;
+    color: white;
+}
+
+nav ul li a:hover{
+    background-color: #172A3A;
+    color: white;
+}
+
+nav ul.hide{
+    display: none;
+}
+
+#byuilink, .footclass, #lastModif, #todaysDate{
+    color: white;
+}
+
+/*----------------------------------Weather Gallery----------------------------------*/
+
+/*--------------------------------------Main--------------------------------------*/
+div img[data-src] {
+    filter: blur(5px);
+    }
+
+div img{
+    filter: blur(0px);
+    transition: filter 0.5s;
+  }
+
+main{
+    text-align: center;
+}
+
+main h2{
+    font-size: 3rem;
+}
+
+.wgImgContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    transition: 1s;
+    margin: 0;
+}
+
+figure:nth-child(n){
+    margin: 15px;
+}
+
+figure:hover:nth-child(n){
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    transform: scale(1.05);
+}
+
+img{
+    max-width: 100%;
+}
+
+figcaption{
+    font-size: .8em;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
+
+
+
+
+
+
+
+
+
