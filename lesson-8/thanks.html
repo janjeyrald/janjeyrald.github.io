@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Planning and Developing design principles web page.">
+    <title>CloudSky Weather</title>
+    <!-- STYLE SHEETS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Glegoo:wght@700&family=Teko:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+    <div id="content">
+        <div id="pancakes"></div>
+        <header class="clearfix">
+
+            <div class="headerContent">
+                <img src="images/CSlogo.png" alt="CloudSky Weather Info Logo" id="logo">
+                <h1 id="siteName">CloudSky Weather</h1>
+                <p id="siteTagLine">Weather update that you should know.</p>
+            </div>
+        </header>
+        <nav>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="#">Home</a></li>
+                <li class="activeMenu"><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>Thank you for submitting a report</h2>
+        </main>
+        <footer>
+            <p class="footclass"> &copy; <span id="currentyear"></span>| Jan C. Cortez | Philippines |
+                <a href="https://www.byui.edu/online" id="byuilink">BYUI Online Learning </a>
+            </p>
+            <p id="lastModif">Last Updated: <span id="lastupdate"></span></p>
+            <p id="todaysDate">Todays Date: <span id="currentdate"></span></p>
+        </footer>
+    </div>
+    <script src="js/scripts.js"></script>
+    <script src="js/lastmodified.js"></script>
+    <script src="js/lazyload.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    'Glegoo', 'Teko'
+                ]
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -150,17 +150,36 @@ figcaption{
     font-size: .8em;
 }
 
-/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
-/*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 /*--------------------------------Storm Center--------------------------------*/
 
-for fieldset{
-    padding: 2% 2% 2% 2%;
+form fieldset{
+    padding:2.5em 4% 2.5em 4%;
 }
+
+form legend{
+    margin: 0 1em;
+    padding: 0 .5em;
+    font-size: 2em;
+}
+
+form label.formLabel, form div{
+    display: block;
+    padding-top: 1em;
+    font-size: 1.5em;
+}
+
+form label.formLabel input, form label.formLabel select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    max-width: 25em;
+}
+
 
 
 
