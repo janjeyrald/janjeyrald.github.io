@@ -156,6 +156,10 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*--------------------------------Storm Center--------------------------------*/
 
+#ssWelcome{
+    font-size: 2em;
+}
+
 form fieldset{
     padding:1.5em 1% 2.5em 1%;
 }

@@ -45,13 +45,29 @@
         </nav>
 
         <main>
+            <div class="hero-div">
+                <picture>
+                    <source media="(max-width: 560px)"
+                        srcset="/lesson-8/images/ehud-neuhaus-79IbB5lQ01A-unsplash-560px.jpg" />
+                    <source media="(max-width: 800px)"
+                        srcset="/lesson-8/images/ehud-neuhaus-79IbB5lQ01A-unsplash-800px.jpg" />
+                    <source media="(max-width: 1200px)"
+                        srcset="/lesson-8/images/ehud-neuhaus-79IbB5lQ01A-unsplash-1200px.jpg" />
+                    <img class="hero-image" src="/lesson-8/images/ehud-neuhaus-79IbB5lQ01A-unsplash-2000px.jpg"
+                        alt="preston idaho">
+                </picture>
+            </div>
+            <h2 id="townName">Storm Center</h2>
+            <p id="ssWelcome">Welcome to CloudSky Storm Center. Please fill out the information need and report a storm or unusual
+                weather event in your travel area.</p>
             <div class="formDiv">
                 <form method="get" action="thanks.html">
                     <fieldset>
                         <legend class="legendTitle">Personal Information</legend>
                         <label class="formLabel">First Name: *<input type="text" name="fname" required></label>
                         <label class="formLabel">Last Name: *<input type="text" name="lname" required /> </label>
-                        <label class="formLabel">Phone: *<input type="tel" name="phone" placeholder="123-456-7890" required />
+                        <label class="formLabel">Phone: *<input type="tel" name="phone" placeholder="123-456-7890"
+                                required />
                         </label>
                         <label class="formLabel">
                             Zip Code: *<input type="number" name="zip" placeholder="Enter your Zip code" required />
@@ -76,21 +92,24 @@
                             <option value="soda_springs">Soda Springs</option>
                             <option value="fist_haven">Fish Haven</option>
                         </select>
-    
+
                     </fieldset>
                     <fieldset>
                         <legend class="legendTitle">Storm Severity</legend>
                         <label class="formLabel">User in Danger</label>
-                        <label class="stormSeverity"><input type="radio" name="danger" value="yes" />Yes</label>&nbsp;&nbsp;&nbsp;
-                        <label class="stormSeverity"><input type="radio" name="danger" value="no" />No</label>&nbsp;&nbsp;&nbsp;
+                        <label class="stormSeverity"><input type="radio" name="danger"
+                                value="yes" />Yes</label>&nbsp;&nbsp;&nbsp;
+                        <label class="stormSeverity"><input type="radio" name="danger"
+                                value="no" />No</label>&nbsp;&nbsp;&nbsp;
                         <label class="stormSeverity"><input type="radio" name="danger" value="maybe" />Maybe</label>
-    
+
                         <div id="scale"><label for="rating">Storm Intensity (on a scale of 1-10)</label></div>
                         <label class="ratingLabel" for="rating">Rating:
-                            <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                            <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                                oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                             <span id="ratingValue">5</span>
                         </label>
-                
+
                         <datalist id="tickmarks">
                             <option value="0">
                             <option value="1">
