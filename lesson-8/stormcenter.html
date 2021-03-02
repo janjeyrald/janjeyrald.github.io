@@ -48,20 +48,20 @@
             <div class="formDiv">
                 <form method="get" action="thanks.html">
                     <fieldset>
-                        <legend class="legendtitle">Personal Information</legend>
-                        <label class="formLabel">First Name*:<input type="text" name="fname" required></label>
-                        <label class="formLabel">Last Name*:<input type="text" name="lname" required /> </label>
-                        <label class="formLabel">Phone*<input type="tel" name="phone" placeholder="123-456-7890" required />
+                        <legend class="legendTitle">Personal Information</legend>
+                        <label class="formLabel">First Name: *<input type="text" name="fname" required></label>
+                        <label class="formLabel">Last Name: *<input type="text" name="lname" required /> </label>
+                        <label class="formLabel">Phone: *<input type="tel" name="phone" placeholder="123-456-7890" required />
                         </label>
                         <label class="formLabel">
-                            Zip Code*<input type="number" name="zip" placeholder="Enter your Zip code" required />
+                            Zip Code: *<input type="number" name="zip" placeholder="Enter your Zip code" required />
                         </label>
                     </fieldset>
                     <fieldset>
                         <legend class="legendTitle">Storm Data</legend>
                         <label class="formLabel">Storm Date<input type="date" name="date"></label>
                         <label class="formLabel">Storm Type</label>
-                        <select name="subject" class="formbut">
+                        <select name="subject" class="formRegion">
                             <option selected disabled>Please Select</option>
                             <option value="flood">Flash Flood</option>
                             <option value="hail">Hail</option>
@@ -70,26 +70,25 @@
                             <option value="tornado">Tornado</option>
                         </select>
                         <label class="formLabel">Storm Area</label>
-                        <select name="select region" class="formbut">
+                        <select name="select region" class="formRegion">
                             <option selected disabled>Please Select</option>
                             <option value="preston">Preston</option>
                             <option value="soda_springs">Soda Springs</option>
                             <option value="fist_haven">Fish Haven</option>
                         </select>
     
-    
                     </fieldset>
                     <fieldset>
                         <legend class="legendTitle">Storm Severity</legend>
                         <label class="formLabel">User in Danger</label>
-                        <label class="sbs"><input type="radio" name="danger" value="yes" />&nbsp; Yes</label>
-                        <label class="sbs"><input type="radio" name="danger" value="no" />&nbsp; No</label>
-                        <label class="sbs"><input type="radio" name="danger" value="maybe" />&nbsp; Maybe</label>
+                        <label class="StormSeverity"><input type="radio" name="danger" value="yes" />Yes</label><br>
+                        <label class="StormSeverity"><input type="radio" name="danger" value="no" /> No</label><br>
+                        <label class="StormSeverity"><input type="radio" name="danger" value="maybe" /> Maybe</label><br>
     
-                        <div id="rate"><label for="rating">Storm Intensity (on a scale of 1-10)</label></div>
-                        <label class="flexly" for="rating">Rating: &nbsp;&nbsp;&nbsp;
+                        <div id="scale"><label for="rating">Storm Intensity (on a scale of 1-10)</label></div>
+                        <label class="ratingLabel" for="rating">Rating:
                             <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                            <span id="ratingvalue">5</span>
+                            <span id="ratingValue">5</span>
                         </label>
                 
                         <datalist id="tickmarks">
