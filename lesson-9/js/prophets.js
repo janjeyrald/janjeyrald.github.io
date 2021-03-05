@@ -1,11 +1,11 @@
 // set the JSON source URL
-const requestURL = "https://byui-cit230.github.io/canvas-referenced/latter-day-prophets.json";
+const requestURL = "https://byui-cit230.github.io/canvas-referenced/latter-day-prophets.json"
 // use fetch to obtain info from JSON URL
 fetch(requestURL)
-    .then(function (response){
-        return response.json();
-    })
-    .then(function (jsonObject){
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
     // temporary checking for valid response and data parsing
         const prophets = jsonObject['prophets'];
     
@@ -31,7 +31,7 @@ fetch(requestURL)
             card.append(h2);
             card.appendChild(bDay);
             card.appendChild(bPlace);
-            cards.append(prophetPhoto);
+            card.append(prophetPhoto);
 
             document.querySelector('div.cards').appendChild(card);
         }
