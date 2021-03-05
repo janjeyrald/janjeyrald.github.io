@@ -25,8 +25,8 @@ fetch(requestURL)
             bPlace.textContent = "Place of Birth:" + " " + prophets[i].birthplace;
             prophetPhoto.setAttribute("src", prophets[i].imageurl);
             prophetPhoto.setAttribute("alt", prophets[i].name + " " + prophets[i].lastname + " " + "-" + " " + prophets[i].order);
-            prophetPhoto.style.boxShadow = "0 0 20px #fff";
-            prophetPhoto.style.width="200px;"
+            prophetPhoto.style.boxShadow = "2px 2px 2px #F3F3F4";
+            prophetPhoto.style.width="200px";
         //Append text information and fill everything from the loop
             card.append(h2);
             card.appendChild(bDay);
