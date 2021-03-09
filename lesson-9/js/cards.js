@@ -41,9 +41,7 @@ for (let i=0; i < towns.length; i++) {
         textDiv.appendChild(pop);
         textDiv.appendChild(rain);
         card.appendChild(image);}
-
-    
-        
+      
      document.querySelector('div.idahoTowns').appendChild(card);
 }
 });
