@@ -108,6 +108,7 @@ h3{
 
 section.homepageSection{
     display: block;
+    border-radius: 0%;
 }
 
 section:nth-of-type(1){
