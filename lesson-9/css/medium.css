@@ -108,7 +108,22 @@ figure:hover:nth-child(n){
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
     transform: scale(1.2);
 }
+/*--------------------Homepage Contact--------------------*/
+.prestonContactWrapper{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
 
+.prestonContact{
+    padding:50px;
+}
+
+#prestonMap{
+    display: flex;
+    max-width: 50%;
+    max-height: 50%;
+}
 }
 
 

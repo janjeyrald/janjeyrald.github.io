@@ -261,6 +261,34 @@ input.txtarea {
     padding: .2rem;
   }
   
+/*-----------------------------Homepage-----------------------------*/
+
+
+/*-----------------------------Contact Info-----------------------------*/
+#prestonMap{
+    display: none;
+}
+
+.prestonContact{
+    text-align: center;
+}
+
+.prestonContactWrapper{
+    margin: 10px auto;
+}
+
+#prestonContactHeading{
+    font-size: 1.8em;
+}
+
+#locationIcon{
+    max-width: 20px;
+}
+
+.socialIcons img{
+    display: inline;
+    max-width: 40px;
+}
 
 
 /*----- Clearfix: Force an Element not to collapse -----*/
