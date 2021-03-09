@@ -108,6 +108,34 @@ figure:hover:nth-child(n){
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
     transform: scale(1.2);
 }
+
+/*-----------------------HomePage Main------------------------*/
+section.homepageSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin: 1rem;
+  }
+
+  .townImages{
+      max-width: 100%;
+      margin-top: 40px;
+  }
+
+  section.homepageSection:nth-child(6) img {
+    grid-column: 1;
+  }
+  
+  section.homepageSection:nth-child(6) div.homepageInfo {
+      grid-column: 2/3;
+      grid-row: 1;
+  }
+  
+
+
+
+.townImages {width: 100%; height: auto;padding:0;}
+
 /*--------------------Homepage Contact--------------------*/
 .prestonContactWrapper{
     display: flex;
