@@ -263,6 +263,19 @@ input.txtarea {
   
 /*-----------------------------Homepage-----------------------------*/
 
+/*---------------------------Main------------------------*/
+.townImages{
+    max-width: 70%;
+}
+
+section{
+    background-color: #ccc;
+    border-radius: 20px;
+}
+.headingTwo{
+    color: #172A3A;
+}
+
 
 /*-----------------------------Contact Info-----------------------------*/
 #prestonMap{
