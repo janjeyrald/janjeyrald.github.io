@@ -42,9 +42,9 @@ fetch(apiforecastURL)
   .then((jsObject) => {
     console.log(jsObject);
     // Create an array for 5-day forecast
-    const dayName = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+    const dayOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
     
-    let d = 0;
+    let day = 0;
 
     //Set varialble and use list.filter to show the data in "18:00:00"
     const fiveDays = jsObject.list.filter((element) =>
@@ -52,26 +52,23 @@ fetch(apiforecastURL)
       );
 
 
-    for (i = 0; i < fiveDays.length; i++) {
+      for (i = 0; i < fiveDays.length; i++) {
       let d = new Date(fiveDays[i].dt_txt); 
 
       //write day name from Array
-      document.getElementById("day" + (d + 1)).textContent =dayName[d.getDay()];
+      document.getElementById("day" + (day + 1)).textContent =dayOfWeek[d.getDay()];
 
       //Output Temperature
-      document.getElementById("fr" + (d + 1)).textContent = (fiveDays[d].main.temp);
-
-      
-
+      document.getElementById("fr" + (day + 1)).textContent = (fiveDays[day].main.temp)+ " °F";
 
       // Create address for img source
-      var imagesrc ="https://openweathermap.org/img/w/" + fiveDays[d].weather[0].icon + ".png";
+      var imagesrc ="https://openweathermap.org/img/w/" + fiveDays[day].weather[0].icon + ".png";
 
       
-      document.getElementById("imagesrc" + (d + 1)).textContent = imagesrc;
-      document.getElementById("icon" + (d + 1)).setAttribute("src", imagesrc);
-      document.getElementById("icon" + (d + 1)).setAttribute("alt", fiveDays[0].weather[0].description);
+      document.getElementById("imagesrc" + (day + 1)).textContent = imagesrc;
+      document.getElementById("icon" + (day + 1)).setAttribute("src", imagesrc);
+      document.getElementById("icon" + (day + 1)).setAttribute("alt", fiveDays[0].weather[0].description);
 
-      d++;
+      day++;
     }
   });
