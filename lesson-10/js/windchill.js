@@ -5,11 +5,16 @@ fetch(apiURL)
   .then((jsObject) => {
     console.log(jsObject);
     //Get output the info in current-temp ID from APIURL .main.temp
-    let temp = document.getElementById("currentTemp").textContent = jsObject.main.temp;
-    document.getElementById("humidityResult").textContent = jsObject.main.humidity + "%";
-    let ws = document.getElementById("windSpeed").textContent = jsObject.wind.speed;
-    document.getElementById("condition").textContent = jsObject.weather[0].description;
-    const imagesrc = "https://openweathermap.org/img/w/" + jsObject.weather[0].icon + ".png"; // note the concatenation
+    let temp = (document.getElementById("currentTemp").textContent =
+      jsObject.main.temp);
+    document.getElementById("humidityResult").textContent =
+      jsObject.main.humidity + "%";
+    let ws = (document.getElementById("windSpeed").textContent =
+      jsObject.wind.speed);
+    document.getElementById("condition").textContent =
+      jsObject.weather[0].description;
+    const imagesrc =
+      "https://openweathermap.org/img/w/" + jsObject.weather[0].icon + ".png"; // note the concatenation
     const desc = jsObject.weather[0].description; // note how we reference the weather array
 
     if (temp <= 50 && ws >= 3) {
@@ -25,5 +30,48 @@ fetch(apiURL)
       result = "N/A";
 
       document.getElementById("windChillInput").innerHTML = result;
+    }
+  });
+
+//My 5 Day Forecast
+
+const apiforecastURL ="https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=1e7be815afa70c3cbb2e3a8372839f50";
+
+fetch(apiforecastURL)
+  .then((response) => response.json())
+  .then((jsObject) => {
+    console.log(jsObject);
+    // Create an array for 5-day forecast
+    const dayName = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+    
+    let d = 0;
+
+    //Set varialble and use list.filter to show the data in "18:00:00"
+    const fiveDays = jsObject.list.filter((element) =>
+        element.dt_txt.includes("18:00:00")
+      );
+
+
+    for (i = 0; i < fiveDays.length; i++) {
+      let d = new Date(fiveDays[i].dt_txt); 
+
+      //write day name from Array
+      document.getElementById("day" + (d + 1)).textContent =dayName[d.getDay()];
+
+      //Output Temperature
+      document.getElementById("fr" + (d + 1)).textContent = (fiveDays[d].main.temp);
+
+      
+
+
+      // Create address for img source
+      var imagesrc ="https://openweathermap.org/img/w/" + fiveDays[d].weather[0].icon + ".png";
+
+      
+      document.getElementById("imagesrc" + (d + 1)).textContent = imagesrc;
+      document.getElementById("icon" + (d + 1)).setAttribute("src", imagesrc);
+      document.getElementById("icon" + (d + 1)).setAttribute("alt", fiveDays[0].weather[0].description);
+
+      d++;
     }
   });
