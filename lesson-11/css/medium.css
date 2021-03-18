@@ -1,0 +1,152 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+    
+    /*Header*/
+
+    #logo{
+        top: 5px;
+        left: 45%;
+      }
+    
+    #siteName{
+        font-size: 2.4em;
+        top: 58px;
+        left: 38%;
+    }
+    
+    #siteTagLine{
+        left: 36%;
+        top: 110px;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: center;
+    }
+
+    nav button{
+        display: none;
+    }
+
+    nav ul.hide{
+        display: block;
+    }
+    nav ul{
+        margin-left: 2%;
+    }
+    nav ul li{
+        float: left;
+    }
+    nav ul li a{
+        border: none;
+        padding: .8rem 1rem;
+        font-size: .7em;
+    }
+
+    .slider{
+        background-size: auto;
+    }
+    
+    .weatherSummary{
+        top: 30px;
+        left: 50px;
+        padding: 20px 60px;
+    }
+
+    #townBorder{
+        padding-right: 120px;
+        margin-bottom: 3em;
+    }
+
+    #prestonInfo1{
+        text-align: center;
+    }
+    
+    #prestonInfo2{
+        text-align: center; 
+    }
+    
+    #prestonInfo3{
+        text-align: center;
+    }
+    
+    #prestonInfo4{
+        text-align: center;
+    }
+
+    #logo{
+        max-width: 140px;
+    }
+
+    .headerContent{
+        text-align: center;
+    }
+
+    #townName{
+        font-size: 2rem;
+    }
+
+    /*Table*/
+
+    .fiveDayForeCast{
+        display:flex;
+        flex-direction: column;
+    }
+
+    #foreCastHeading{
+        text-align: center;
+        font-size: 2em;  
+     }
+     
+     #tableForeCast{
+         display: flex;
+     }
+     
+     #tableForeCast table{
+         text-align: center;
+         margin: 1rem auto;
+     }
+     
+     table, th, td{
+         border: 1px solid black;
+         border-collapse: collapse;
+     }
+     
+     th, td{
+         padding: 15px;
+         text-align: center;
+     }
+     
+     table {
+         border-spacing: 5px;
+         width: 50%;
+       }
+     
+    /*Article*/
+    .prestonArticle img{
+        max-width: 30%;
+        margin: 20px;
+        float: right;
+    }
+
+    .prestonContactWrapper{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .prestonContact{
+        padding:50px;
+    }
+
+    #prestonMap{
+        display: flex;
+        max-width: 50%;
+        max-height: 50%;
+    }
+    /*Contact*/
+
+}
+
+
+/*end medium */ /*end medium */
