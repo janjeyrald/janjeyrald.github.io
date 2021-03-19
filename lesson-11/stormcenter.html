@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Planning and Developing design principles web page.">
+    <title>CloudSky Weather</title>
+    <!-- STYLE SHEETS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Glegoo:wght@700&family=Teko:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+    <div id="content">
+        <div id="pancakes"></div>
+        <header class="clearfix">
+
+            <div class="headerContent">
+                <img src="images/CSlogo.png" alt="CloudSky Weather Info Logo" id="logo">
+                <h1 id="siteName">CloudSky Weather</h1>
+                <p id="siteTagLine">Weather update that you should know.</p>
+            </div>
+        </header>
+        <nav>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li class="activeMenu"><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="hero-div">
+                <picture>
+                    <source media="(max-width: 560px)"
+                        srcset="/lesson-8/images/ehud-neuhaus-79IbB5lQ01A-unsplash-560px.jpg" />
+                    <source media="(max-width: 800px)"
+                        srcset="/lesson-8/images/ehud-neuhaus-79IbB5lQ01A-unsplash-800px.jpg" />
+                    <source media="(max-width: 1200px)"
+                        srcset="/lesson-8/images/ehud-neuhaus-79IbB5lQ01A-unsplash-1200px.jpg" />
+                    <img class="hero-image" src="/lesson-8/images/ehud-neuhaus-79IbB5lQ01A-unsplash-2000px.jpg"
+                        alt="preston idaho">
+                </picture>
+            </div>
+            <h2 id="townName">Storm Center</h2>
+            <p id="ssWelcome">Welcome to CloudSky Storm Center. Please fill out the information need and report a storm or unusual
+                weather event in your travel area.</p>
+            <div class="formDiv">
+                <form method="get" action="thanks.html">
+                    <fieldset>
+                        <legend class="legendTitle">Personal Information</legend>
+                        <label class="formLabel">First Name: *<input type="text" name="fname" required></label>
+                        <label class="formLabel">Last Name: *<input type="text" name="lname" required /> </label>
+                        <label class="formLabel">Phone: *<input type="tel" name="phone" placeholder="123-456-7890"
+                                required />
+                        </label>
+                        <label class="formLabel">
+                            Zip Code: *<input type="number" name="zip" placeholder="Enter your Zip code" required />
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend class="legendTitle">Storm Data</legend>
+                        <label class="formLabel">Storm Date<input type="date" name="date"></label>
+                        <label class="formLabel">Storm Type</label>
+                        <select name="subject" class="formRegion">
+                            <option selected disabled>Please Select</option>
+                            <option value="flood">Flash Flood</option>
+                            <option value="hail">Hail</option>
+                            <option value="hurricane">Hurricane</option>
+                            <option value="thunderstorm">Thunderstorm</option>
+                            <option value="tornado">Tornado</option>
+                        </select>
+                        <label class="formLabel">Storm Area</label>
+                        <select name="select region" class="formRegion">
+                            <option selected disabled>Please Select</option>
+                            <option value="preston">Preston</option>
+                            <option value="soda_springs">Soda Springs</option>
+                            <option value="fist_haven">Fish Haven</option>
+                        </select>
+
+                    </fieldset>
+                    <fieldset>
+                        <legend class="legendTitle">Storm Severity</legend>
+                        <label class="formLabel">User in Danger</label>
+                        <label class="stormSeverity"><input type="radio" name="danger"
+                                value="yes" />Yes</label>&nbsp;&nbsp;&nbsp;
+                        <label class="stormSeverity"><input type="radio" name="danger"
+                                value="no" />No</label>&nbsp;&nbsp;&nbsp;
+                        <label class="stormSeverity"><input type="radio" name="danger" value="maybe" />Maybe</label>
+
+                        <div id="scale"><label for="rating">Storm Intensity (on a scale of 1-10)</label></div>
+                        <label class="ratingLabel" for="rating">Rating:
+                            <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                                oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                            <span id="ratingValue">5</span>
+                        </label>
+
+                        <datalist id="tickmarks">
+                            <option value="0">
+                            <option value="1">
+                            <option value="2">
+                            <option value="3">
+                            <option value="4">
+                            <option value="5">
+                            <option value="6">
+                            <option value="7">
+                            <option value="8">
+                            <option value="9">
+                            <option value="10">
+                        </datalist>
+                    </fieldset>
+                    <fieldset id="comments">
+                        <legend class="legendTitle">Comments</legend>
+                        <label><input type="text" class="txtarea"></label>
+                    </fieldset>
+                    <input type="submit" value="Report Weather Event" class="submitBtn">
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p class="footclass"> &copy; <span id="currentyear"></span>| Jan C. Cortez | Philippines |
+                <a href="https://www.byui.edu/online" id="byuilink">BYUI Online Learning </a>
+            </p>
+            <p id="lastModif">Last Updated: <span id="lastupdate"></span></p>
+            <p id="todaysDate">Todays Date: <span id="currentdate"></span></p>
+        </footer>
+    </div>
+    <script src="js/scripts.js"></script>
+    <script src="js/lastmodified.js"></script>
+    <script src="js/lazyload.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    'Glegoo', 'Teko'
+                ]
+            }
+        });
+    </script>
+</body>
+
+</html>
