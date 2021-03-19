@@ -100,7 +100,9 @@ nav ul.hide{
     display: none;
 }
 
-
+#pancakes{
+    text-align: center;
+}
 
 
 /***************************Main*****************************/

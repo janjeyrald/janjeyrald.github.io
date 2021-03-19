@@ -111,62 +111,37 @@
         max-width: 100%;
     }
 
-    /*--------------------------Gallery--------------------*/
-    .wgImgContainer{
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr .5fr;
-        grid-gap: 2em;
-    }
-    
-    #wgImg1{
-        grid-column: 1/2;
-        grid-row: 1/2;
-    }
-    
-    #wgImg2{
-        grid-column: 2/3;
-        grid-row: 1/2;
-    }
-    
-    #wgImg3{
-        grid-column: 3/4;
-        grid-row: 1/2;
-    }
-    
-    #wgImg4{
-        grid-column: 1/2;
-        grid-row: 2/3;
-    }
-    
-    #wgImg5{
-        grid-column: 2/3;
-        grid-row: 2/3;
-    }
-    
-    #wgImg6{
-        grid-column: 3/4;
-        grid-row: 2/3;
-    }
-    
-    #wgImg7{
-        grid-column: 1/2;
-        grid-row: 3/4;
-    }
-    
-    #wgImg8{
-        grid-column: 2/3;
-        grid-row: 3/4;
-    }
-    
-    #wgImg9{
-        grid-column: 3/4;
-        grid-row: 3/4;
-    }
-    
-    figure{
-        max-width: 100%;
-    }
+    /*-----------------------HomePage Main------------------------*/
+div.idahoTowns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+  }
+
+h3{
+    font-size: 1.1rem;
+}
+
+section.homepageSection{
+    display: block;
+    border-radius: 0%;
+}
+
+section:nth-of-type(2){
+    display:none;
+}
+
+section:nth-of-type(4){
+    display:none;
+}
+
+section:nth-of-type(5){
+    display:none;
+}
+
+section:nth-of-type(6){
+    display:none;
+}
     
     
 } /*end large */
