@@ -121,17 +121,22 @@ nav ul.hide{
     text-align: left;
     background-color: rgba(240, 240, 240, 0.8);
     padding: 10px;
-    padding-right: 55px;
+    padding-right: 10px;
     margin-bottom: 3em;
     position: absolute;
-    font-size: .8em;
+    font-size: 1em;
     top: 30px;
     color: #172A3A;
 }
 
 #townName{
+    margin-left: 5px;
     color: #172A3A;
     text-align: center;
+}
+
+.wSummary{
+    font-size: 1.5em;
 }
 
 #byuilink, .footclass, #lastModif, #todaysDate{
