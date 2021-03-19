@@ -250,6 +250,117 @@ section{
     color: #172A3A;
 }
 
+/*--------------------------------Storm Center--------------------------------*/
+
+/*--------------------------------Storm Center--------------------------------*/
+
+#ssWelcome{
+    font-size: 2em;
+}
+
+form fieldset{
+    padding:1.5em 1% 2.5em 1%;
+}
+
+form legend{
+    margin: 0 1em;
+    padding: 0 .5em;
+    font-size: 2em;  
+}
+
+.legendTitle{
+    text-align: left;
+}
+
+form label.formLabel, form div{
+    display: block;
+    padding-top: 1em;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+form label.formLabel input, form label.formLabel select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    max-width: 25em;
+}
+
+#rating {
+    display: block;
+    padding-top: 5em;
+    font-size: 1em;  
+}
+
+div#scale {
+margin-top: .2em;
+text-align: left;
+}
+
+.ratingLabel{
+    display: flex;
+    align-items: center;
+}
+
+form label.stormSeverity {
+    display: block;
+    padding: .1em 0;
+    text-align: left;
+}
+
+
+
+form input.submitBtn {
+    border: none;
+    background-color:#00AEEF;
+    color: white;
+    border-radius: 2em;
+    padding: 2rem 1.5em;
+    margin: 2em 0 2em 2%;
+    width: 90%;
+    max-width: 20em;
+}
+
+form label.formLabel input:required {
+    border-left: red solid 6px;
+}
+
+form label.formLabel input:required:valid{
+    border-left: green solid 6px;
+}
+
+input.txtarea {
+    width: 100%;
+    height: 120px;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: 1em;
+  }
+
+  fieldset#danger{
+    margin-bottom: 3em;
+  }
+
+  form select.formRegion {
+    padding: 5px;
+    border-radius: 4px;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  div#scale{
+    padding-top: 3em;
+    margin-bottom: .5em;
+  }
+  
+  span#ratingValue {
+    color: blue;
+    padding: .2rem;
+  }
+  
+  
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
