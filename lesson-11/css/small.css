@@ -194,8 +194,6 @@ nav ul.hide{
 }
 
 /*----------------------------------Weather Gallery----------------------------------*/
-
-/*--------------------------------------Main--------------------------------------*/
 div img[data-src] {
     filter: blur(5px);
     }
@@ -237,6 +235,19 @@ img{
 
 figcaption{
     font-size: .8em;
+}
+
+/*-----------------------------Homepage-----------------------------*/
+
+.townImages{
+    max-width: 70%;
+}
+
+section{
+    background-color: #ccc;
+}
+.headingTwo{
+    color: #172A3A;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/

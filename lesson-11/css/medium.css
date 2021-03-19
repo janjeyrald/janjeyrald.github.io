@@ -210,8 +210,9 @@
         transform: scale(1.2);
     }
     
-    /*-------------Home Page------------------*/
+    
     /*-----------------------HomePage Main------------------------*/
+/*-----------------------HomePage Main------------------------*/
 section.homepageSection {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -224,11 +225,11 @@ section.homepageSection {
       margin-top: 40px;
   }
 
-  section.homepageSection:nth-child(6) img {
+  section.homepageSection:nth-child(3) img {
     grid-column: 1;
   }
   
-  section.homepageSection:nth-child(6) div.homepageInfo {
+  section.homepageSection:nth-child(3) div.homepageInfo {
       grid-column: 2/3;
       grid-row: 1;
   }
@@ -237,8 +238,7 @@ section.homepageSection {
 
 
 .townImages {width: 100%; height: auto;padding:0;}
-
-}
+  }
 
 
 /*end medium */ /*end medium */
