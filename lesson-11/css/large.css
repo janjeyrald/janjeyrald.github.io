@@ -142,6 +142,9 @@ section:nth-of-type(5){
 section:nth-of-type(6){
     display:none;
 }
-    
+
+.prestonContactWrapper{
+    max-width: 60%;
+}
     
 } /*end large */
