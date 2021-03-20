@@ -32,29 +32,22 @@ p, a, div{
     color: #172A3A;
 }
 
-header{
-    position:relative;
-    height: 165px;
-}
-
 #logo{
-    position: absolute;
+    
     max-width: 120px;
-    top: 5px;
-    left: 10px;
+    
   }
 
   #siteName{
     font-size: 2em;
-    position: absolute;
-    top: 60px;
-    left: 10px;
+    margin-top: -8px;
+    
+    
 }
 
 #siteTagLine{
-    position: absolute;
-    left: 10px;
-    top: 100px;
+    margin-top: -20px;
+    
 }
 
 /***************Navigation******************/
