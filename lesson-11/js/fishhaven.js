@@ -1,5 +1,5 @@
 const apiURL =
-  "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=1e7be815afa70c3cbb2e3a8372839f50";
+  "https://api.openweathermap.org/data/2.5/weather?id=5585010&appid=1e7be815afa70c3cbb2e3a8372839f50";
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
@@ -14,7 +14,7 @@ fetch(apiURL)
 
     document.getElementById("condition").textContent =
       jsObject.weather[0].description;
-
+    
 
     if (temp <= 50 && ws >= 3) {
       let result =
@@ -35,7 +35,7 @@ fetch(apiURL)
 //My 5 Day Forecast
 
 const apiforecastURL =
-  "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=1e7be815afa70c3cbb2e3a8372839f50";
+  "https://api.openweathermap.org/data/2.5/forecast?id=5585010&appid=1e7be815afa70c3cbb2e3a8372839f50";
 
 fetch(apiforecastURL)
   .then((response) => response.json())
