@@ -113,8 +113,6 @@ eventThree.setAttribute = ('class', 'eventSched');
 eventFour.setAttribute = ('class', 'eventSched');
 div.setAttribute('class', 'textDetails');
 
-
-
 card.appendChild(div);
 div.appendChild(h2);
 div.appendChild(eventOne);
