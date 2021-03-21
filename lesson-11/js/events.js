@@ -36,10 +36,6 @@ for(let i=0; i<result.length; i++){
     eventTwo.textContent = result[i].events[1];
     eventThree.textContent = result[i].events[2];
     eventFour.textContent = result[i].events[3];
-    eventOne.setAttribute = ('class', 'eventSched');
-    eventTwo.setAttribute = ('class', 'eventSched');
-    eventThree.setAttribute = ('class', 'eventSched');
-    eventFour.setAttribute = ('class', 'eventSched');
     div.setAttribute('class', 'textDetails');
 
 
@@ -72,10 +68,6 @@ eventOne.textContent = result[i].events[0];
 eventTwo.textContent = result[i].events[1];
 eventThree.textContent = result[i].events[2];
 eventFour.textContent = result[i].events[3];
-eventOne.setAttribute = ('class', 'eventSched');
-eventTwo.setAttribute = ('class', 'eventSched');
-eventThree.setAttribute = ('class', 'eventSched');
-eventFour.setAttribute = ('class', 'eventSched');
 div.setAttribute('class', 'textDetails');
 
 
@@ -107,10 +99,6 @@ eventOne.textContent = result[i].events[0];
 eventTwo.textContent = result[i].events[1];
 eventThree.textContent = result[i].events[2];
 eventFour.textContent = result[i].events[3];
-eventOne.setAttribute = ('class', 'eventSched');
-eventTwo.setAttribute = ('class', 'eventSched');
-eventThree.setAttribute = ('class', 'eventSched');
-eventFour.setAttribute = ('class', 'eventSched');
 div.setAttribute('class', 'textDetails');
 
 card.appendChild(div);
