@@ -362,7 +362,15 @@ input.txtarea {
     padding: .2rem;
   }
   
-  
+  .thankyou{
+      height: 200px;
+      margin-top: 20%;
+      margin-bottom: 20%;
+  }
+
+  /*----------------Towns--------------*/
+  /*Preston*/
+  .contentbox
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
