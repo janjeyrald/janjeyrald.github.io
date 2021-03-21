@@ -19,7 +19,7 @@ const result = towns.filter(towns => towns.name == 'Preston' || towns.name == 'F
 
 for(let i=0; i<result.length; i++){
 
-    if (result[i].name === "Preston" && document.querySelector('div.contentbox1')){
+    if (result[i].name === "Preston" && document.querySelector('div.townEvents1')){
        
             let card = document.createElement('section');
             const h2 = document.createElement('h2');
@@ -32,6 +32,7 @@ for(let i=0; i<result.length; i++){
 // Create and concatenate strings and set attributes.
     
     h2.textContent = "Town Events";
+    h2.setAttribute('class', 'peh2')
     eventOne.textContent = result[i].events[0];
     eventTwo.textContent = result[i].events[1];
     eventThree.textContent = result[i].events[2];
@@ -47,11 +48,11 @@ for(let i=0; i<result.length; i++){
     div.appendChild(eventThree);
     div.appendChild(eventFour);
         
-    document.querySelector('div.contentbox1').appendChild(card);
+    document.querySelector('div.townEvents1').appendChild(card);
     break;
         
 }
-else if(result[i].name === "Soda Springs" && document.querySelector('div.contentbox2')){
+else if(result[i].name === "Soda Springs" && document.querySelector('div.townEvents2')){
 
     let card = document.createElement('section');
     const h2 = document.createElement('h2');
@@ -79,10 +80,10 @@ div.appendChild(eventTwo);
 div.appendChild(eventThree);
 div.appendChild(eventFour);
 
-document.querySelector('div.contentbox2').appendChild(card);
+document.querySelector('div.townEvents2').appendChild(card);
 break;
 }
-else if(result[i].name === "Fish Haven" && document.querySelector('div.contentbox3')){
+else if(result[i].name === "Fish Haven" && document.querySelector('div.townEvents3')){
 
     let card = document.createElement('section');
     const h2 = document.createElement('h2');
@@ -95,6 +96,7 @@ else if(result[i].name === "Fish Haven" && document.querySelector('div.contentbo
 // Create and concatenate strings and set attributes.
 
 h2.textContent = "Town Events";
+
 eventOne.textContent = result[i].events[0];
 eventTwo.textContent = result[i].events[1];
 eventThree.textContent = result[i].events[2];
@@ -108,7 +110,7 @@ div.appendChild(eventTwo);
 div.appendChild(eventThree);
 div.appendChild(eventFour);
 
-document.querySelector('div.contentbox3').appendChild(card);
+document.querySelector('div.townEvents3').appendChild(card);
 break;
 }
 }

@@ -100,10 +100,11 @@ nav ul.hide{
 
 /***************************Main*****************************/
 
-.hero-div{
+.hero-div, .heroImg{
     background-size: cover;
     margin: 5px auto;
     position: relative;
+    box-shadow: 5px 5px 5px 5px #999;
 }
 
 .hero-image{
@@ -118,8 +119,9 @@ nav ul.hide{
     margin-bottom: 3em;
     position: absolute;
     font-size: 1em;
-    top: 30px;
+    top: 10px;
     color: #172A3A;
+    max-width: 100%;
 }
 
 #townName{
@@ -368,9 +370,49 @@ input.txtarea {
       margin-bottom: 20%;
   }
 
+  hr{
+    box-shadow: 1px 1px 1px 1px #999;
+  }
   /*----------------Towns--------------*/
-  /*Preston*/
-  .contentbox
+  .textDetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  /*Preston Event*/
+  .townEvents1{
+     
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    max-width: 400px;
+    box-shadow: 5px 5px 5px 5px #999;
+  }
+
+  
+
+  /*Soda Springs Event*/
+  .townEvents2{
+     
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    max-width: 400px;
+    box-shadow: 5px 5px 5px 5px #999;
+  }
+
+  /*Fish Haven Event*/
+  .townEvents3{
+     
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    max-width: 400px;
+    box-shadow: 5px 5px 5px 5px #999;
+  }
+
+
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
