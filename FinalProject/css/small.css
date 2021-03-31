@@ -98,6 +98,7 @@ nav ul.hide{
 /*----------------------Homepage Main-----------------------*/
 .homeHeroImg{
     background-size: cover;
+    max-width: 1200px;
     height: 400px;
     background-image: url("/FinalProject/images/alaminos1-560px.jpg");
     background-repeat: no-repeat;

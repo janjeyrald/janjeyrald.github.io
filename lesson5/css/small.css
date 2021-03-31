@@ -108,7 +108,7 @@ nav ul.hide{
 .hero-image{
     background-size: cover;
     height: 400px;
-    background-image: url("/FinalProject/images/alaminos1-560px.jpg");
+    background-image: url("/lesson5/images/preston1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     margin: 5px auto;
@@ -118,16 +118,16 @@ nav ul.hide{
 
 @keyframes slide{
     25%{
-        background-image: url("/FinalProject/images/alaminos2-560px.jpg");
+        background-image: url("/lesson5/images/preston2.jpg");
     }
     50%{
-        background-image: url("/FinalProject/images/alaminos3-560px.jpg");
+        background-image: url("/lesson5/images/preston3.jpg");
     }
     75%{
-        background-image: url("/FinalProject/images/alaminos4-560px.jpg");
+        background-image: url("/lesson5/images/preston1.jpg");
     }
     100%{
-        background-image: url("/FinalProject/images/alaminos1-560px.jpg");
+        background-image: url("/lesson5/images/preston2.jpg");
     }
 }
 
