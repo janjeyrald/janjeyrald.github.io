@@ -9,7 +9,7 @@ body{
     margin: 0;
 }
 
-/************************Header*************************/
+/************************Header and Footer*************************/
 
 header, footer{
     background-color: #efd6ac;
@@ -95,6 +95,32 @@ nav ul.hide{
     display: none;
 }
 
+/*----------------------Homepage Main-----------------------*/
+.homeHeroImg{
+    background-size: cover;
+    height: 400px;
+    background-image: url("/");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5px auto;
+    animation: slide 20s infinite;
+    position: relative;
+}
+
+@keyframes slide{
+    25%{
+        background-image: url("/lesson5/images/preston2.jpg");
+    }
+    50%{
+        background-image: url("/lesson5/images/preston3.jpg");
+    }
+    75%{
+        background-image: url("/lesson5/images/preston1.jpg");
+    }
+    100%{
+        background-image: url("/lesson5/images/preston2.jpg");
+    }
+}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
