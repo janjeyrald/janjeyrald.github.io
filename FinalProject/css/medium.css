@@ -1,0 +1,26 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+    
+    /*-------------------Homepage Main-----------------*/
+
+
+    /*-------------------Hero Image Animation-----------------*/
+    .homeHeroImg{
+        background-image: url("/FinalProject/images/alaminos1-800px.jpg");
+    }
+    
+    @keyframes slide{
+        25%{
+            background-image: url("/FinalProject/images/alaminos2-800px.jpg");
+        }
+        50%{
+            background-image: url("/FinalProject/images/alaminos3-800px.jpg");
+        }
+        75%{
+            background-image: url("/FinalProject/images/alaminos4-800px.jpg");
+        }
+        100%{
+            background-image: url("/FinalProject/images/alaminos1-800px.jpg");
+        }
+    }
+}

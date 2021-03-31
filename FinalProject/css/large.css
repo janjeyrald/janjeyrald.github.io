@@ -1,0 +1,25 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+    /*-------------------Homepage Main-----------------*/
+
+
+    /*-------------------Hero Image Animation-----------------*/
+    .homeHeroImg{
+        background-image: url("/FinalProject/images/alaminos1-1200px.jpg");
+    }
+    
+    @keyframes slide{
+        25%{
+            background-image: url("/FinalProject/images/alaminos2-1200px.jpg");
+        }
+        50%{
+            background-image: url("/FinalProject/images/alaminos3-1200px.jpg");
+        }
+        75%{
+            background-image: url("/FinalProject/images/alaminos4-1200px.jpg");
+        }
+        100%{
+            background-image: url("/FinalProject/images/alaminos1-1200px.jpg");
+        }
+    }
+}
