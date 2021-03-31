@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 p, a, div{
-    font-family: 'Glegoo', serif;
+    font-family: 'Bitter', serif;
     color: #172A3A;
 }
 
@@ -122,6 +122,30 @@ nav ul.hide{
         background-image: url("/FinalProject/images/alaminos1-560px.jpg");
     }
 }
+
+.homeHeroContent{
+    position:absolute;
+    background-color: rgba(240, 240, 240, 0.8);;
+    max-width: auto;
+    top: 150px;
+    
+}
+
+#callToAction{
+    font-size: 2.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    
+}
+#joinBtn{
+    padding: 1em;
+    margin-left: 2.2em;
+    margin-bottom: 1em;
+}
+
+
+
+
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
