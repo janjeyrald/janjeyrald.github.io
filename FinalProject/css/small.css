@@ -175,10 +175,24 @@ section.homeDescription p:nth-child(2){
 /*---------------------------Home Advertisement----------------------------*/
 .homeAds article{
     text-align: center;
+    background-color: #EFD6AC;
+    padding: 1em;
+}
+article h2:nth-child(1){
+    color: #04151F;
 }
 
+article h3:nth-child(2){
+    color: #04151F;
+}
+
+article p:nth-child(3){
+    color: #04151F;
+}
+
+
 .homeAds article img{
-    max-width: 300px;
+    max-width: 400px;
 }
 
 /*---------------------------Home Contact----------------------------*/
