@@ -12,7 +12,7 @@ body{
 /************************Header and Footer*************************/
 
 header, footer{
-    background-color: #efd6ac;
+    background-color: white;
     color: white;
     text-align: center;
     padding: 2px;
@@ -59,11 +59,11 @@ nav button{
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
-    color: #555;
+    color: white;
 }
 
 nav {
-    background-color: #ccc;
+    background-color: #646D70;
     font-family: Verdana, sans-serif;
 }
 
@@ -82,8 +82,8 @@ nav ul li a {
 }
 
 nav ul li.activeMenu a{
-    background-color: #00AEEF;
-    color: white;
+    background-color: #EFD6AC;
+    color: black;
 }
 
 nav ul li a:hover{
