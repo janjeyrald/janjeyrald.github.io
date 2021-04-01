@@ -23,4 +23,26 @@
             background-image: url("/FinalProject/images/alaminos1-800px.jpg");
         }
     }
+    /*---------------------------Home Advertisement----------------------------*/
+    section.homeAds{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+        margin: 1rem;
+      }
+    
+      .adsImg{
+          max-width: 100%;
+          margin-top: 40px;
+      }
+    
+      section.homepageAds:nth-child(3) img {
+        grid-column: 1;
+      }
+      
+      section.homeAds:nth-child(3) div.adsInfo {
+          grid-column: 2/3;
+          grid-row: 1;
+      }
+    
 }
