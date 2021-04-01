@@ -142,18 +142,27 @@ nav ul.hide{
     margin-bottom: 1em;
 }
 
-main h2:nth-child(2){
+.homeDescription{
     text-align: center;
+    background-color: whitesmoke;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-main p:nth-child(3){
-    text-align: center;
+section.homeDescription h2:nth-child(1){
+    font-size: 2.5em;
+}
+
+section.homeDescription p:nth-child(2){
+    margin-top: -20px;
 }
 
 .homeEvents{
     text-align: center;
     background-color: #EFD6AC;
-    max-width: 300px;
+    max-width: 400px;
     margin: auto;
 }
 
@@ -162,6 +171,43 @@ main p:nth-child(3){
     color: white;
     padding: .5em;
 }
+
+/*---------------------------Home Advertisement----------------------------*/
+.homeAds article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/*---------------------------Home Contact----------------------------*/
+.homeContact{
+    text-align: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.homeContactWrapper{
+    margin: 10px auto;
+    background-color: whitesmoke;
+}
+
+#homeContactHeading{
+    font-size: 1.8em;
+}
+
+#locationIcon{
+    max-width: 20px;
+}
+
+.socialIcons img{
+    display: inline;
+    max-width: 40px;
+}
+
+
 
 
 
