@@ -177,7 +177,7 @@ section.homeDescription p:nth-child(2){
     text-align: center;
     background-color: #EFD6AC;
     padding: 1em;
-    width: 400px;
+    max-width: 400px;
     margin: auto;
 }
 article h2:nth-child(1){
