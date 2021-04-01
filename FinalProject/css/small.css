@@ -127,12 +127,11 @@ nav ul.hide{
     position:absolute;
     background-color: rgba(240, 240, 240, 0.8);;
     max-width: auto;
-    top: 150px;
-    
+    top: 150px; 
 }
 
 #callToAction{
-    font-size: 2.5em;
+    font-size: 2.3em;
     margin-left: 1em;
     margin-right: 1em;
     
@@ -143,7 +142,26 @@ nav ul.hide{
     margin-bottom: 1em;
 }
 
+main h2:nth-child(2){
+    text-align: center;
+}
 
+main p:nth-child(3){
+    text-align: center;
+}
+
+.homeEvents{
+    text-align: center;
+    background-color: #EFD6AC;
+    max-width: 300px;
+    margin: auto;
+}
+
+#eventsH2{
+    background-color: #183A37;
+    color: white;
+    padding: .5em;
+}
 
 
 
