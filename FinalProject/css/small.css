@@ -301,6 +301,17 @@ form input.submitBtn {
     max-width: 10em;
 }
 
+form input.joinBtn {
+    border: none;
+    background-color:#C44900;
+    color: white;
+    border-radius: 2em;
+    padding: 1rem .5em;
+    margin: 2em 0 2em 2%;
+    width: 90%;
+    max-width: 10em;
+}
+
 form label.formLabel input:required {
     border-left: red solid 6px;
 }
@@ -340,10 +351,23 @@ iframe{
     margin-top: 70px;
 }
 
+/*--------------------Join Page------------------------*/
 
+#pkg0{
+    display: none;
+}
 
+#pkg1{
+    display: none;
+}
 
+#pkg2{
+    display: none;
+}
 
+#pkg3{
+    display: none;
+}
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";

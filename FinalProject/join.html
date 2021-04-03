@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ACP Chamber of Commerce.">
+    <title>Join - ACP Chamber of Commerce</title>
+    <!-- STYLE SHEETS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Teko:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="content">
+        <div id="pancakes"></div>
+        <header class="clearfix">
+
+            <div class="headerContent">
+                <img src="images/acplogo.png" alt="Alaminos City, Pangasinan logo" id="logo">
+                <h1 id="siteName">Alaminos City, Pangasinan</h1>
+
+                <p id="siteTagLine">Chamber of Commerce</p>
+            </div>
+        </header>
+        <!-- Navigation -->
+        <nav>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">City</a></li>
+                <li  class="activeMenu"><a href="join.html">Join</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main class="homepageMain">
+
+            <!-- Hero Image -->
+            <div class="hero-div">
+                <picture>
+                    <source media="(max-width: 560px)"
+                        srcset="/FinalProject/images/natalie-pedigo-wJK9eTiEZHY-unsplash-560px.jpg" />
+                    <source media="(max-width: 800px)"
+                        srcset="/FinalProject/images/natalie-pedigo-wJK9eTiEZHY-unsplash-800px.jpg" />
+                    <source media="(max-width: 1200px)"
+                        srcset="/FinalProject/images/natalie-pedigo-wJK9eTiEZHY-unsplash-1200px.jpg" />
+                    <img class="hero-image" src="/FinalProject/images/natalie-pedigo-wJK9eTiEZHY-unsplash-2000px.jpg"
+                        alt="preston idaho">
+                </picture>
+            </div>
+            <p id="ssWelcome">Welcome to Alaminos City, Pangasinan Chamber of Commerece. We have
+                designed various membership programs and services to cater your business needs, regardless of the size
+                of your company or interests. </p>
+            <div class="formDiv">
+                <form method="get" action="thanks.html">
+                    <fieldset>
+                        <legend class="legendTitle">Personal Information</legend>
+                        <label class="formLabel">First Name: *<input type="text" placeholder="Enter your first name" name="fname" required/></label>
+                        <label class="formLabel">Last Name: *<input type="text" placeholder="Enter your last name" name="lname" required /> </label>
+                        <label class="formLabel">Preferred Name:<input type="text" placeholder="Your preferred name" name="pname"> </label>
+                        <label class="formLabel">Mobile Number:<input type="tel" name="mnumber" placeholder="123-456-7890"></label>
+                        <label class="formLabel">Email: *<input type="email" name="email" placeholder="Enter your e-mail" required /></label>
+                        <label class="formLabel">Business name:<input type="text" placeholder="Enter your first name" name="bname"></label>
+                        <label class="formLabel">Business address:<input type="text" placeholder="Enter your complete address" name="baddress"></label>
+                        <label class="formLabel">Business Website:<input type="url" placeholder="Enter your website" name="website"></label>
+                        <label class="formLabel">Business Description:<input type="text" placeholder="Your Business Description" name="bdescription"></label>
+                    </fieldset>
+                
+                    <fieldset>
+                        <legend class="legendTitle">Membership Level</legend>
+                        <label class="formLabel">Choose your package</label>
+                        <br>
+                        <label class="package"><input type="radio" name="level" onclick="text(0)" value="nonProfit"/>Non-profit ($100)</label>&nbsp;&nbsp;&nbsp;
+                        <label class="package"><input type="radio" name="level" onclick="text(1)" value="bronze" />Bronze ($200)</label>&nbsp;&nbsp;&nbsp;
+                        <label class="package"><input type="radio" name="level" onclick="text(2)" value="silver" />Silver ($400)</label>
+                        <label class="package"><input type="radio" name="level" onclick="text(3)" value="gold" />Gold ($1000)</label>
+                       
+                        <div id="pkg0">
+                            <h2>Non-profit ($100)</h2>
+                            <p>Non-profit ($100)</p>
+                        </div>
+                        <div id="pkg1">
+                            <h2>Bronze ($200)</h2>
+                            <p>Bronze ($200)</p>
+                        </div>
+                        <div id="pkg2">
+                            <h2>Silver ($400)</h2>
+                            <p>Silver ($400)</p>
+                        </div>
+                        <div id="pkg3">
+                            <h2>Gold ($1000)</h2>
+                            <p>Gold ($1000)</p>
+                        </div>
+                   
+                    </fieldset>
+                    <fieldset id="comments">
+                        <legend class="legendTitle">Comments</legend>
+                        <label><input type="text" class="txtarea"></label>
+                    </fieldset>
+                    <input type="submit" value="Submit" class="joinBtn">
+                </form>
+            </div>
+    
+            <br>
+        </main>
+        <footer>
+            <p class="footclass"> &copy; <span id="currentyear"></span>| Jan C. Cortez | Philippines |
+                <a href="https://www.byui.edu/online" id="byuilink">BYUI Online Learning </a>
+            </p>
+            <p id="lastModif">Last Updated: <span id="lastupdate"></span></p>
+            <p id="todaysDate">Todays Date: <span id="currentdate"></span></p>
+        </footer>
+    </div>
+    <script src="js/scripts.js"></script>
+    <script src="js/lastmodified.js"></script>
+    <script src="js/package.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    'Bitter', 'Teko'
+                ]
+            }
+        });
+    </script>
+</body>
+
+</html>
+
+
+
+
