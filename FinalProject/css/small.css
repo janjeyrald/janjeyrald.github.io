@@ -11,11 +11,22 @@ body{
 
 /************************Header and Footer*************************/
 
-header, footer{
+header{
     background-color: white;
     color: white;
     text-align: center;
     padding: 2px;
+}
+
+footer{
+    background-color: #646D70;
+    text-align: center;
+    padding: 2px;
+    color: white;
+}
+
+#byuilink, .footclass, #lastModif, #todaysDate{
+    color: white;
 }
 
 main{
@@ -238,6 +249,7 @@ section.homeDescription p:nth-child(2){
 
 /*----------------------Contact Page-----------------------*/
 .hero-div, .heroImg{
+    position: relative;
     background-size: cover;
     margin: 5px auto;
     position: relative;
@@ -247,6 +259,87 @@ section.homeDescription p:nth-child(2){
 .hero-image{
     max-width: 100%;
 }
+
+/*----------------------Contact Table-----------------------*/
+form fieldset{
+    padding:1.5em 1% 2.5em 1%;
+}
+
+form legend{
+    margin: 0 1em;
+    padding: 0 .5em;
+    font-size: 2em;  
+}
+
+.legendTitle{
+    text-align: left;
+}
+
+form label.formLabel, form div{
+    display: block;
+    padding-top: 1em;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+form label.formLabel input, form label.formLabel select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    max-width: 25em;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color:#C44900;
+    color: white;
+    border-radius: 2em;
+    padding: 1rem .5em;
+    margin: 2em 0 2em 2%;
+    width: 90%;
+    max-width: 10em;
+}
+
+form label.formLabel input:required {
+    border-left: red solid 6px;
+}
+
+form label.formLabel input:required:valid{
+    border-left: green solid 6px;
+}
+
+input.txtarea {
+    width: 100%;
+    height: 120px;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: 1em;
+  }
+  
+  .thankyou{
+      height: 200px;
+      margin-top: 20%;
+      margin-bottom: 20%;
+  }
+
+  hr{
+    box-shadow: 1px 1px 1px 1px #999;
+  }
+
+  .contactPageWrapper{
+    background-color: whitesmoke
+}
+  
+
+#acpMap{
+    display: none;
+}
+
+iframe{
+    margin-top: 70px;
+}
+
 
 
 

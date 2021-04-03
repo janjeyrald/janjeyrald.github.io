@@ -50,28 +50,7 @@
         }
     }
     /*---------------------------Home Advertisement----------------------------*/
-    /*
-    section.homeAds{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 1rem;
-        margin: 1rem;
-      }
-    
-      .adsImg{
-          max-width: 100%;
-          margin-top: 40px;
-      }
-    
-      section.homepageAds:nth-child(3) img {
-        grid-column: 1;
-      }
-      
-      section.homeAds:nth-child(3) div.adsInfo {
-          grid-column: 2/3;
-          grid-row: 1;
-      }
-    */
+
     section.homeAds{
         display: flex;
         flex-direction: row;
@@ -85,5 +64,26 @@
     div section.homeAds:nth-child(3){
         display: flex;
         flex-direction: row-reverse;
+    }
+
+    /*---------------------Contact Page--------------------------*/
+
+    #acpMap{
+        display: block;
+    }
+
+    .contactPageWrapper{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .contactPage{
+        margin-top: 100px;
+        padding:50px;
+    }
+
+    #contactPageHeading{
+        font-size: 1.8em;
     }
 }

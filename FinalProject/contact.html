@@ -48,6 +48,7 @@
 
             <!-- Hero Image -->
             <div class="hero-div">
+
                 <picture>
                     <source media="(max-width: 560px)"
                         srcset="/FinalProject/images/austin-distel-Imc-IoZDMXc-unsplash-560px.jpg" />
@@ -57,11 +58,59 @@
                         srcset="/FinalProject/images/austin-distel-Imc-IoZDMXc-unsplash-1200px.jpg" />
                     <img class="hero-image" src="/FinalProject/images/austin-distel-Imc-IoZDMXc-unsplash-2000px.jpg"
                         alt="ACP contact Images from Unplash">
-                        Photo by <a href="https://unsplash.com/@austindistel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Austin Distel</a> on <a href="https://unsplash.com/s/photos/email?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+                    Photo by <a
+                        href="https://unsplash.com/@austindistel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Austin
+                        Distel</a> on <a
+                        href="https://unsplash.com/s/photos/email?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
                 </picture>
-                
-  
+
+                <div class="formDiv">
+                    <form method="get" action="thanks.html">
+                        <fieldset>
+                            <legend class="legendTitle">Contact Us</legend>
+                            <label class="formLabel">First Name: *<input type="text" placeholder="Enter your First Name"
+                                    name="fname" required /></label>
+                            <label class="formLabel">Last Name: *<input type="text" placeholder="Enter your Last Name"
+                                    name="lname" required /> </label>
+                            <label class="formLabel">Email: *<input type="email" name="email"
+                                    placeholder="Enter your Email" required /></label>
+                            <label class="formLabel">Phone: *<input type="tel" name="phone" placeholder="123-456-7890"
+                                    required /></label>
+
+
+                        </fieldset>
+                        <fieldset id="comments">
+                            <legend class="legendTitle">Comments</legend>
+                            <label><input type="text" class="txtarea"></label>
+                        </fieldset>
+                        <input type="submit" value="Submit" class="submitBtn">
+                    </form>
+                </div>
             </div>
+            <br>
+            <div class="contactPageWrapper">
+                <div class="contactPage">
+                    <h3 id="contactPageHeading">ACP contact Info</h3>
+                    <span><img src="images/iconfinder_Marker_1891030.png" alt="locationIcon" id="locationIcon">
+                        Alaminos City, Pangasinan, Philippines 2404</span>
+                    <p>&#x1F4DE; 999.999.9999</p>
+                    <p>&#128231; info@cloudweather.com</p>
+                    <div class="socialIcons">
+                        <img src="images/iconfinder_1_Facebook_colored_svg_copy_5296499.png" alt="facebook icon">
+                        <img src="images/iconfinder_1_Pinterest_colored_svg_5296503.png" alt="pinterest icon">
+                        <img src="images/iconfinder_2018_social_media_popular_app_logo_twitter_3225183.png"
+                            alt="twitter icon">
+                        <img src="images/iconfinder_2018_social_media_popular_app_logo-whatsapp_3225179.png"
+                            alt="whatsapp icon">
+                    </div>
+
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122639.42540687385!2d119.9197849856437!3d16.14407311605087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3393dccf6d009e91%3A0xd49a89904cd7374e!2sAlaminos%2C%20Pangasinan!5e0!3m2!1sen!2sph!4v1617421231235!5m2!1sen!2sph"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" id="acpMap"></iframe>
+            </div>
+            <br>
         </main>
         <footer>
             <p class="footclass"> &copy; <span id="currentyear"></span>| Jan C. Cortez | Philippines |
