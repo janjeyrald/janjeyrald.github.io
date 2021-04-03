@@ -179,11 +179,16 @@ section.homeDescription p:nth-child(2){
 }
 
 /*---------------------------Home Advertisement----------------------------*/
-.homeAds div{
+.homeAds{
+    display: flex;
     text-align: center;
     background-color: #EFD6AC;
-    padding: 1em;
+    padding: 2em;
     margin: auto;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .adsInfo h2:nth-child(1){
@@ -202,7 +207,6 @@ section.homeDescription p:nth-child(2){
 
 .adsImg{
     max-width: 100%;
-    
 }
 
 /*---------------------------Home Contact----------------------------*/
@@ -232,6 +236,17 @@ section.homeDescription p:nth-child(2){
     max-width: 40px;
 }
 
+/*----------------------Contact Page-----------------------*/
+.hero-div, .heroImg{
+    background-size: cover;
+    margin: 5px auto;
+    position: relative;
+    box-shadow: 5px 5px 5px 5px #999;
+}
+
+.hero-image{
+    max-width: 100%;
+}
 
 
 

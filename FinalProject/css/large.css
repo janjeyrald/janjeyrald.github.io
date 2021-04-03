@@ -1,5 +1,12 @@
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64rem) {
+    /*-------------------Navigation Menu------------------*/
+    nav ul li a{
+        border: none;
+        padding: .8rem 2rem;
+        font-size: 1.3em;
+        color: white;
+    }
     /*-------------------Homepage Main-----------------*/
 
 
@@ -21,5 +28,22 @@
         100%{
             background-image: url("/FinalProject/images/alaminos1-1200px.jpg");
         }
+    }
+    /*---------------------------Home Advertisement----------------------------*/
+    div.homeAdsContainer{
+        display: flex;
+        flex-flow: row;
+    }
+    
+    section.homeAds{
+        display: block;
+    }
+
+    div section.homeAds:nth-child(3){
+        display: block;
+    }
+    .adsImg{
+        max-width: 100%;
+        padding: 2em;
     }
 }

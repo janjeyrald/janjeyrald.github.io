@@ -1,6 +1,32 @@
 /* 35em is also 560px when basefont is 16px */
 @media only screen and (min-width: 35rem) {
     
+    /*-------------------Navigation Menu------------------*/
+    nav{
+        display: flex;
+        justify-content: center;
+    }
+
+    nav button{
+        display: none;
+    }
+
+    nav ul.hide{
+        display: block;
+    }
+    nav ul{
+        margin-left: 2%;
+    }
+    nav ul li{
+        float: left;
+    }
+    nav ul li a{
+        border: none;
+        padding: .8rem 1rem;
+        font-size: 1em;
+        color: white;
+    }
+    
     /*-------------------Homepage Main-----------------*/
 
 
@@ -24,6 +50,7 @@
         }
     }
     /*---------------------------Home Advertisement----------------------------*/
+    /*
     section.homeAds{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -44,5 +71,19 @@
           grid-column: 2/3;
           grid-row: 1;
       }
-    
+    */
+    section.homeAds{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .adsImg{
+        max-width: 60%;
+        padding: 2em;
+    }
+
+    div section.homeAds:nth-child(3){
+        display: flex;
+        flex-direction: row-reverse;
+    }
 }
