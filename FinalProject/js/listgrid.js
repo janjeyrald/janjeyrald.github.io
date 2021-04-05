@@ -13,8 +13,7 @@ fetch(requestURL)
         for (let i = 0; i < business.length; i++){
 
         // Declare value for each variable needed
-            let lView = document.createElement('div');
-            let gView = document.createElement('div');
+     
             let vLeft = document.createElement('div');
             let vRight = document.createElement('div');
             let vLeftTwo = document.createElement('div');
@@ -30,8 +29,6 @@ fetch(requestURL)
             let bPTwo = document.createElement('img');
             let visitTwo = document.createElement('a');
         //Set output string, style and attribute of each cards
-            lView.setAttribute('class', "view_item");
-            gView.setAttribute('class', "view_item");
             vLeft.setAttribute('class', "vi_left");
             vRight.setAttribute('class', "vi_right");
             h2.textContent = business[i].name;
@@ -63,23 +60,20 @@ fetch(requestURL)
         //Append text information and fill everything from the loop
             
             vLeft.append(bP);
-           document.querySelector('div.list-view').appendChild(vLeft);
+           document.querySelector('div.view_item').appendChild(vLeft);
            vRight.append(h2);
            vRight.appendChild(cInfo);
            vRight.appendChild(page);
            vRight.appendChild(visit);
-            document.querySelector('div.list-view').appendChild(vRight);
-            lView.append(vLeft);
-            lView.append(vRight);
-            document.querySelector('div.list-view').appendChild(lView)
+            document.querySelector('div.view_item').appendChild(vRight);
         
             vLeftTwo.append(bPTwo);
-            document.querySelector('div.grid-view').appendChild(vLeftTwo);
+            document.querySelector('div.view_item2').appendChild(vLeftTwo);
             vRightTwo.append(h2Two);
             vRightTwo.appendChild(cInfoTwo);
             vRightTwo.appendChild(pageTwo);
             vRightTwo.appendChild(visitTwo);
-            document.querySelector('div.grid-view').appendChild(vRightTwo);
+            document.querySelector('div.view_item2').appendChild(vRightTwo);
         
         }
         

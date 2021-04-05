@@ -4,7 +4,8 @@
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*----------- apply a natural box layout model to all elements --------------*/
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;   
+}
 body{
     margin: 0;
 }
@@ -368,6 +369,8 @@ iframe{
 #pkg3{
     display: none;
 }
+
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
