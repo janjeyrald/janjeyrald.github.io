@@ -135,9 +135,6 @@
     padding: 10px 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
 }
 
 .list-view .view_item:last-child{
