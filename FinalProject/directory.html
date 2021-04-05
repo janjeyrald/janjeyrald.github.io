@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="ACP Chamber of Commerce.">
-    <title>Join - ACP Chamber of Commerce</title>
+    <title>Directory - ACP Chamber of Commerce</title>
     <!-- STYLE SHEETS -->
     <link href="css/normalize.css" rel="stylesheet">
     <!-- phone-default -->
@@ -26,7 +26,7 @@
         <header class="clearfix">
 
             <div class="headerContent">
-                <img src="images/acplogo.png" alt="Alaminos City, Pangasinan logo" id="logo">
+                <img src="images/acplogo.png" alt="Alaminos City Pangasinan Logo" id="logo">
                 <h1 id="siteName">Alaminos City, Pangasinan</h1>
 
                 <p id="siteTagLine">Chamber of Commerce</p>
@@ -38,18 +38,29 @@
             <ul id="primaryNav" class="hide">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="city.html">City</a></li>
-                <li  class="activeMenu"><a href="join.html">Join</a></li>
-                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li class="activeMenu"><a href="directory.html">Directory</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
 
         <main class="homepageMain">
 
-            <div class="thankyou">
-                <h2>Congratulations you are now a member of ACP Chamber of Commerce!</h2>
-                <p><a href="index.html">Learn More</a></p>
-                </div>
+            <!-- Hero Image -->
+            <div class="hero-div">
+
+                <picture>
+                    <source media="(max-width: 560px)"
+                        srcset="/FinalProject/images/austin-distel-Imc-IoZDMXc-unsplash-560px.jpg" />
+                    <source media="(max-width: 800px)"
+                        srcset="/FinalProject/images/austin-distel-Imc-IoZDMXc-unsplash-800px.jpg" />
+                    <source media="(max-width: 1200px)"
+                        srcset="/FinalProject/images/austin-distel-Imc-IoZDMXc-unsplash-1200px.jpg" />
+                    <img class="hero-image" src="/FinalProject/images/austin-distel-Imc-IoZDMXc-unsplash-2000px.jpg"
+                        alt="ACP contact Images from Unplash">
+                </picture>
+
+            
         </main>
         <footer>
             <p class="footclass"> &copy; <span id="currentyear"></span>| Jan C. Cortez | Philippines |
@@ -61,7 +72,6 @@
     </div>
     <script src="js/scripts.js"></script>
     <script src="js/lastmodified.js"></script>
-    <script src="js/package.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({
@@ -75,7 +85,3 @@
 </body>
 
 </html>
-
-
-
-
