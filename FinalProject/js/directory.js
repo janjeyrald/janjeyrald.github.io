@@ -38,7 +38,6 @@ fetch(requestURL)
       h2.setAttribute("class", "title");
       cInfo.textContent =
         "Contact Info:" + " " + business[i].contactInformation;
-      page.textContent = "Facebook Page:" + " " + business[i].fbPage;
       bP.setAttribute("src", `images/${business[i].photo}`);
       bP.setAttribute("class", `bPhoto`);
       bP.setAttribute("alt", business[i].name + " " + business[i].name);
@@ -69,7 +68,6 @@ fetch(requestURL)
       h2Two.setAttribute("class", "title");
       cInfoTwo.textContent =
         "Contact Info:" + " " + business[i].contactInformation;
-      pageTwo.textContent = "Facebook Page:" + " " + business[i].fbPage;
       bPTwo.setAttribute("src", `images/${business[i].photo}`);
       bPTwo.setAttribute("class", `bPhoto`);
       bPTwo.setAttribute("alt", business[i].name + " " + business[i].name);
@@ -92,3 +90,27 @@ fetch(requestURL)
       
     }
   });
+
+  var li_links = document.querySelectorAll(".links ul li");
+  var view_wraps = document.querySelectorAll(".view_wrap");
+  
+  li_links.forEach(function(link){
+    link.addEventListener("click", function(){
+      li_links.forEach(function(item){
+        item.classList.remove('active');
+      })
+      link.classList.add('active');
+  
+      var li_view = link.getAttribute('data-view');
+  
+      view_wraps.forEach(function(view){
+        view.style.display = "none";
+      })
+      if(li_view =='list-view'){
+        document.querySelector("." + li_view).style.display = "block";
+      }else{
+        document.querySelector("." + li_view).style.display = "block";
+      }
+    })
+  
+  })
