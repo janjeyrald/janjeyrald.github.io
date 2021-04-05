@@ -1,0 +1,46 @@
+{
+    "business": [
+      {
+        "name": "Kaboom Dinner",
+        "photo": "kaboomdiner.jpg",
+        "contactInformation": "0998-566-2776",
+        "fbPage": "https://www.facebook.com/KaboomDiner"
+      },
+      {
+        "name": "Island Tropic Hotel and Restaurant",
+        "photo": "islandtropic.jpg",
+        "contactInformation": "0999-517-8411",
+        "fbPage": "https://www.facebook.com/islandtropichotel"
+      },
+      {
+        "name": "Magic Appliance Alaminos",
+        "photo": "magicappliance.jpg",
+        "contactInformation": "(075) 552 7370",
+        "fbPage": "https://www.facebook.com/magicappliancealaminos"
+      },
+      {
+        "name": "Unla La Alaminos",
+        "photo": "unlalaalaminos.jpg",
+        "contactInformation": "0926-072-9863",
+        "fbPage": "https://www.facebook.com/unlalaalaminosph"
+      },
+      {
+        "name": "OTW Alaminos",
+        "photo": "otwalaminos.jpg",
+        "contactInformation": "0999-517-8411",
+        "fbPage": "https://www.facebook.com/otwalaminos"
+      },
+      {
+        "name": "Northwood Hotel",
+        "photo": "northwood.jpg",
+        "contactInformation": "0929-789-0088",
+        "fbPage": "https://www.facebook.com/Northwoodhotel"
+      },
+      {
+        "name": "Foodie Ladivah",
+        "photo": "foodieladivah.jpg",
+        "contactInformation": "0930 758 3235",
+        "fbPage": "https://www.facebook.com/foodieladivah"
+      }
+    ]
+  }
