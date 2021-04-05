@@ -86,4 +86,47 @@
     #contactPageHeading{
         font-size: 1.8em;
     }
+
+    /*------------------------------Directory------------------------*/
+    .wrapper{
+        width: 800px;
+        margin: 50px auto;
+    }
+
+    .links{
+        margin-bottom: 20px;
+        background: #fff;
+        padding: 15px;
+        border-radius: 3px;
+    }
+
+    .links ul{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+
+    .links ul li{
+        margin: 0 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 20px;
+        letter-spacing: 3px;
+        cursor: pointer;
+        
+    }
+
+    .links ul li:hover, .links ul li.active{
+        color: #4abd3e;
+    }
+
+    .grid-view{
+        width: 100%;
+    }
+
+    .grid-view .bDirectory{
+        width: 230px;
+        border: 1px solid #e2efe1;
+        padding: 25px;
+    }
 }
