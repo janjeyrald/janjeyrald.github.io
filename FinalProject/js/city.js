@@ -23,7 +23,7 @@ for (let i=0; i < city.length; i++) {
     image.setAttribute('src', `images/${city[i].photo}`);
     image.setAttribute('class', 'townImages');
     image.setAttribute('alt', city[i].name+ "("+city[i].photo + ")");
-    card.setAttribute('class', 'cityImgSec' );
+    card.setAttribute('class', 'citySec' );
     
         card.appendChild(h2);
         card.appendChild(des);
