@@ -15,12 +15,15 @@ for (let i=0; i < city.length; i++) {
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
     let des = document.createElement('p');
+    let fig = document.createElement('figure');
+    let pic = document.createElement('picture');
     let image = document.createElement('img');
     
     h2.textContent = city[i].name;
     h2.setAttribute('class', 'headingTwo');
     des.textContent = city[i].description;    
-    image.setAttribute('src', `images/${city[i].photo}`);
+    image.setAttribute('src', `images/${placeholder.jpg}`);
+    image.setAttribute('data-src', `images/${city[i].photo}`);
     image.setAttribute('class', 'townImages');
     image.setAttribute('alt', city[i].name+ "("+city[i].photo + ")");
     card.setAttribute('class', 'citySec' );
