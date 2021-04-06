@@ -23,8 +23,8 @@ for (let i=0; i < city.length; i++) {
     figCap.textContent = city[i].description;   
     image.setAttribute('src', `images/${city[i].placeholder}`); 
     image.setAttribute('data-src', `images/${city[i].photo}`);
-    image.setAttribute('class', 'townImages');
     image.setAttribute('alt', city[i].name+ "("+city[i].photo + ")");
+    image.setAttribute('class', 'townImages');
     
     
 
@@ -36,7 +36,5 @@ for (let i=0; i < city.length; i++) {
         
         document.querySelector('div.cityImg').appendChild(fig);
         
-    
-  
 }
 });
