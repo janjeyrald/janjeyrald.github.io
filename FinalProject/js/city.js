@@ -1,4 +1,4 @@
-const requestURL = "https://janjeyrald.github.io/FinalProject/JSON/city.json";
+/* const requestURL = "https://janjeyrald.github.io/FinalProject/JSON/city.json";
 
 fetch(requestURL)
     .then(function (response) {
@@ -36,4 +36,4 @@ for (let i=0; i < city.length; i++) {
         document.querySelector('div.cityImg').appendChild(card);
         
 }
-});
+});*/

@@ -151,4 +151,21 @@
 .grid-view .view_item .btn{
     margin: 0 auto;
 }
+
+/*--------------------City Page Images----------------------*/
+.cityImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.cityPic{
+    width: 50%;
+}
+
+section#citySec picture:hover:nth-child(n){
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    transform: scale(1.2);
+}
 }
