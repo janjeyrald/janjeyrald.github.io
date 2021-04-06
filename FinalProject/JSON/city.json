@@ -1,49 +1,49 @@
 {
     "city": [
       {
-        "name": "Joseph",
+        "name": "Hundre Islands",
         "description": "23 December 1805",
-        "image": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+        "image": "cityislands.jpg"
       },
       {
-        "name": "Joseph",
+        "name": "SeaFoods",
         "description": "23 December 1805",
-        "image": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+        "image": "cityseafoods.jpg"
       },
       {
-        "name": "Joseph",
+        "name": "Zipline",
         "description": "23 December 1805",
-        "image": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+        "image": "cityzipline.jpg"
       },
       {
-        "name": "Joseph",
+        "name": "Island Hopping",
         "description": "23 December 1805",
-        "image": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+        "image": "cityislandhopping.jpg"
       },
       {
-        "name": "Joseph",
+        "name": "Kayak",
         "description": "23 December 1805",
-        "image": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+        "image": "citykayak.jpg"
       },
       {
-        "name": "Joseph",
+        "name": "Lucap Wharf",
         "description": "23 December 1805",
-        "image": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+        "image": "citylucapwharf"
       },
       {
-        "name": "Joseph",
+        "name": "Island to Island Walk",
         "description": "23 December 1805",
-        "image": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+        "image": "cityislandwalk"
       },
       {
-        "name": "Joseph",
+        "name": "White Sand",
         "description": "23 December 1805",
-        "image": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+        "image": "citywhitesand.jpg"
       },
       {
-        "name": "Joseph",
+        "name": "Scuba Diving",
         "description": "23 December 1805",
-        "image": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+        "image": "cityscuba.jpg"
       }
     ]
   }
