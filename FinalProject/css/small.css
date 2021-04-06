@@ -442,6 +442,50 @@ section.cityDescription p:nth-child(2){
     font-size: 1.4em;
 }
 
+/*---------------City Page Lazy load---------------*/
+div img[data-src] {
+    filter: blur(5px);
+    }
+
+div img{
+    filter: blur(0px);
+    transition: filter 0.5s;
+  }
+
+main{
+    text-align: center;
+}
+
+main h2{
+    font-size: 3rem;
+}
+
+.cityImg{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    transition: 1s;
+    margin: 0;
+}
+
+figure:nth-child(n){
+    margin: 15px;
+}
+
+figure:hover:nth-child(n){
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    transform: scale(1.05);
+}
+
+img{
+    max-width: 100%;
+}
+
+figcaption{
+    font-size: .8em;
+}
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
