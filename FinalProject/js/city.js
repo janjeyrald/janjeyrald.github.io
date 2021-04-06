@@ -22,7 +22,7 @@ for (let i=0; i < city.length; i++) {
     h2.textContent = city[i].name;
     h2.setAttribute('class', 'headingTwo');
     des.textContent = city[i].description;    
-    image.setAttribute('src', `images/${placeholder.jpg}`);
+    image.setAttribute('src', `images/${city[i].placeholder}`);
     image.setAttribute('data-src', `images/${city[i].photo}`);
     image.setAttribute('class', 'townImages');
     image.setAttribute('alt', city[i].name+ "("+city[i].photo + ")");
