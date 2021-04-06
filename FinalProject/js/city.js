@@ -23,7 +23,7 @@ for (let i=0; i < city.length; i++) {
     figCap.textContent = city[i].description;   
     image.setAttribute('src', `images/${city[i].placeholder}`); 
     image.setAttribute('data-src', city[i].photo);
-    image.setAttribute('alt', city[i].name+ "("+city[i].description + ")");
+    image.setAttribute('alt', city[i].name);
     image.setAttribute('class', 'townImages');
     
         pic.appendChild(image);
