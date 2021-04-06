@@ -11,16 +11,17 @@ const city = jsonObject['city'];
     
 
 for (let i=0; i < city.length; i++) {
-  
+    
+    let card = document.createElement('section');
+    let p = document.createElement('p');
     let h2 = document.createElement('h2');
-    let fig = document.createElement('figure');
-    let figCap = document.createElement('figcaption');
     let pic = document.createElement('picture');
     let image = document.createElement('img');
     
+    card.setAttribute('class', 'citySec');
     h2.textContent = city[i].name;
     h2.setAttribute('class', 'headingTwo');
-    figCap.textContent = city[i].description;   
+    p.textContent = city[i].description;   
     image.setAttribute('src', `images/${city[i].placeholder}`); 
     image.setAttribute('data-src', city[i].photo);
     image.setAttribute('alt', city[i].name);
@@ -28,11 +29,11 @@ for (let i=0; i < city.length; i++) {
     
         pic.appendChild(image);
         document.querySelector('div.cityImg').appendChild(pic);
-        fig.appendChild(h2);
-        fig.appendChild(pic);
-        fig.appendChild(figCap);
+        card.appendChild(h2);
+        card.appendChild(p);
+        card.appendChild(pic);
         
-        document.querySelector('div.cityImg').appendChild(fig);
+        document.querySelector('div.cityImg').appendChild(card);
         
 }
 });

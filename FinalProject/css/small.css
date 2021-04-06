@@ -452,7 +452,7 @@ div img{
     transition: filter 0.5s;
   }
 
-main{
+main div.cityImg{
     text-align: center;
 }
 
@@ -469,12 +469,12 @@ main h2{
     margin: 0;
 }
 
-figure:nth-child(n){
-    margin: 10px;
+section.citySec:nth-child(n){
+    margin: 2px;
 }
 
-figure:hover:nth-child(n){
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+section.citySec:hover:nth-child(n){
+    box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 2);
     transform: scale(1.05);
 }
 
