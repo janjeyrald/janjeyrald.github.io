@@ -18,15 +18,15 @@ for (let i=0; i < city.length; i++) {
     let image = document.createElement('img');
     
     h2.textContent = city[i].name;
+    h2.setAttribute('class', 'headingTwo');
     des.textContent = city[i].description;    
     image.setAttribute('src', `images/${city[i].photo}`);
     image.setAttribute('class', 'townImages');
-    image.setAttribute('alt', city[i].name+ "("+city[i].description + ")");
-    h2.setAttribute('class', 'headingTwo');
+    image.setAttribute('alt', city[i].name+ "("+city[i].photo + ")");
     card.setAttribute('class', 'cityImgSec' );
     
         card.appendChild(h2);
-        card.appendChild(description);
+        card.appendChild(des);
         card.appendChild(image);
       
      document.querySelector('div.cityImg').appendChild(card);
