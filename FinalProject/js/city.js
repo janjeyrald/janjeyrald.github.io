@@ -24,7 +24,7 @@ for (let i=0; i < city.length; i++) {
     image.setAttribute('src', `images/${city[i].placeholder}`); 
     image.setAttribute('data-src', city[i].photo);
     image.setAttribute('alt', city[i].name);
-    image.setAttribute('class', 'townImages');
+    image.setAttribute('class', 'cityImages');
     
         pic.appendChild(image);
         document.querySelector('div.cityImg').appendChild(pic);

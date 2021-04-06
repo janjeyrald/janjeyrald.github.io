@@ -470,7 +470,7 @@ main h2{
 }
 
 figure:nth-child(n){
-    margin: 15px;
+    margin: 10px;
 }
 
 figure:hover:nth-child(n){
