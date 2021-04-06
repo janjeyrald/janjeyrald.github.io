@@ -3,55 +3,55 @@
       {
         "name": "Hundre Islands",
         "description": "23 December 1805",
-        "photo": "cityislands.jpg",
+        "photo": "https://janjeyrald.github.io/FinalProject/images/cityislands.jpg",
         "placeholder": "placeholder.jpg"
       },
       {
         "name": "SeaFoods",
         "description": "23 December 1805",
-        "photo": "cityseafoods.jpg",
+        "photo": "https://janjeyrald.github.io/FinalProject/images/cityseafoods.jpg",
         "placeholder": "placeholder.jpg"
       },
       {
         "name": "Zipline",
         "description": "23 December 1805",
-        "photo": "cityzipline.jpg",
+        "photo": "https://janjeyrald.github.io/FinalProject/images/cityzipline.jpg",
         "placeholder": "placeholder.jpg"
       },
       {
         "name": "Island Hopping",
         "description": "23 December 1805",
-        "photo": "cityislandhopping.jpg",
+        "photo": "https://janjeyrald.github.io/FinalProject/images/cityislandhopping.jpg",
         "placeholder": "placeholder.jpg"
       },
       {
         "name": "Kayak",
         "description": "23 December 1805",
-        "photo": "citykayak.jpg",
+        "photo": "https://janjeyrald.github.io/FinalProject/images/citykayak.jpg",
         "placeholder": "placeholder.jpg"
       },
       {
         "name": "Lucap Wharf",
         "description": "23 December 1805",
-        "photo": "citylucapwharf.jpg",
+        "photo": "https://janjeyrald.github.io/FinalProject/images/citylucapwharf.jpg",
         "placeholder": "placeholder.jpg"
       },
       {
         "name": "Island to Island Walk",
         "description": "23 December 1805",
-        "photo": "cityislandwalk.jpg",
+        "photo": "https://janjeyrald.github.io/FinalProject/images/cityislandwalk.jpg",
         "placeholder": "placeholder.jpg"
       },
       {
         "name": "White Sand",
         "description": "23 December 1805",
-        "photo": "citywhitesand.jpg",
+        "photo": "https://janjeyrald.github.io/FinalProject/images/citywhitesand.jpg",
         "placeholder": "placeholder.jpg"
       },
       {
         "name": "Scuba Diving",
         "description": "23 December 1805",
-        "photo": "cityscuba.jpg",
+        "photo": "https://janjeyrald.github.io/FinalProject/images/cityscuba.jpg",
         "placeholder": "placeholder.jpg"
       }
     ]
