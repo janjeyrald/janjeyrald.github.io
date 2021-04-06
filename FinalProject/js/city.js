@@ -23,11 +23,9 @@ for (let i=0; i < city.length; i++) {
     figCap.textContent = city[i].description;   
     image.setAttribute('src', `images/${city[i].placeholder}`); 
     image.setAttribute('data-src', city[i].photo);
-    image.setAttribute('alt', city[i].name+ "("+city[i].photo + ")");
+    image.setAttribute('alt', city[i].name+ "("+city[i].description + ")");
     image.setAttribute('class', 'townImages');
     
-    
-
         pic.appendChild(image);
         document.querySelector('div.cityImg').appendChild(pic);
         fig.appendChild(h2);
