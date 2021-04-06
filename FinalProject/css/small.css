@@ -170,11 +170,12 @@ nav ul.hide{
 }
 
 section.homeDescription h2:nth-child(1){
-    font-size: 2.5em;
+    font-size: 3em;
 }
 
 section.homeDescription p:nth-child(2){
     margin-top: -20px;
+    font-size: 1.4em;
 }
 
 .homeEvents{
@@ -370,6 +371,19 @@ iframe{
     display: none;
 }
 
+.joinDescription{
+    background: whitesmoke;
+    padding: 2em;
+}
+
+section.joinDescription h2:nth-child(1){
+    font-size: 3em;
+}
+
+section.joinDescription p:nth-child(2){
+    font-size: 1.4em;
+}
+
 /*---------------Directory List view----------------*/
 .links ul{
     display: none;
@@ -411,6 +425,21 @@ iframe{
 
 .view_item .btn:hover{
     background: #3bd62b;
+}
+
+/*---------------------------City Page-----------------------*/
+
+.cityDescription{
+    background: whitesmoke;
+    padding: 2em;
+}
+
+section.cityDescription h2:nth-child(1){
+    font-size: 3em;
+}
+
+section.cityDescription p:nth-child(2){
+    font-size: 1.4em;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
