@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ACP Chamber of Commerce.">
+    <title>Directory - ACP Chamber of Commerce</title>
+    <!-- STYLE SHEETS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Teko:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="content">
+        <div id="pancakes"></div>
+        <header class="clearfix">
+
+            <div class="headerContent">
+                <img src="images/acplogo.png" alt="Alaminos City Pangasinan Logo" id="logo">
+                <h1 id="siteName">Alaminos City, Pangasinan</h1>
+
+                <p id="siteTagLine">Chamber of Commerce</p>
+            </div>
+        </header>
+        <!-- Navigation -->
+        <nav>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="city.html">City</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li class="activeMenu"><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main class="homepageMain">
+
+            <!-- Hero Image -->
+            <div class="cityHeroImg">
+                <section class="homeHeroContent">
+                    <h2 id="cityTitle">OPENING DOORS FOR ENTREPRENUERS.</h2>
+                    <a id="cityBusiness" href="directory.html">BECOME A MEMBER</a>
+                </section>
+            </div>
+            
+            
+        </main>
+        <footer>
+            <p class="footclass"> &copy; <span id="currentyear"></span>| Jan C. Cortez | Philippines |
+                <a href="https://www.byui.edu/online" id="byuilink">BYUI Online Learning </a>
+            </p>
+            <p id="lastModif">Last Updated: <span id="lastupdate"></span></p>
+            <p id="todaysDate">Todays Date: <span id="currentdate"></span></p>
+        </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/a329031e99.js" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/lastmodified.js"></script>
+    <script src="js/directory.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    'Bitter', 'Teko'
+                ]
+            }
+        });
+    </script>
+</body>
+
+</html>
