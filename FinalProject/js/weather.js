@@ -6,14 +6,12 @@ fetch(apiURL)
     console.log(jsObject);
     //Get output the info in current-temp ID from APIURL .main.temp
     let temp = (document.getElementById("currentTemp").textContent =
-      jsObject.main.temp);
-    let ws = (document.getElementById("windSpeed").textContent =
-      jsObject.wind.speed);
+      jsObject.current.temp);
     document.getElementById("humidityResult").textContent =
-      jsObject.main.humidity + "%";
+      jsObject.current.humidity + "%";
 
     document.getElementById("condition").textContent =
-      jsObject.weather[0].description;
+    jsObject.weather[0].main  + jsObject.weather[0].description ;
     const imagesrc =
       "https://openweathermap.org/img/w/" + jsObject.weather[0].icon + ".png"; // note the concatenation
     const desc = jsObject.weather[0].description; // note how we reference the weather array
@@ -36,8 +34,8 @@ fetch(apiURL)
 
 //My 5 Day Forecast
 
-const apiforecastURL =
-  "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=1e7be815afa70c3cbb2e3a8372839f50";
+const apiforecastURL = "https://api.openweathermap.org/data/2.5/onecall?lat=16.1561&lon=119.9811&exclude=minutely&appid=1e7be815afa70c3cbb2e3a8372839f50";
+  //"https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=1e7be815afa70c3cbb2e3a8372839f50";
 
 fetch(apiforecastURL)
   .then((response) => response.json())
