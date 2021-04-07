@@ -456,10 +456,6 @@ main div.cityImg{
     text-align: center;
 }
 
-main h2{
-    font-size: 3rem;
-}
-
 .cityImg{
     display: flex;
     flex-direction: column;
