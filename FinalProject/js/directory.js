@@ -32,8 +32,8 @@ fetch(requestURL)
       //Set output string, style and attribute of each cards
       listView.setAttribute("class", "view_item");
       
-      vLeft.setAttribute("class", "vi_left");
-      vRight.setAttribute("class", "vi_right");
+      vLeft.setAttribute("class", "left");
+      vRight.setAttribute("class", "right");
       h2.textContent = business[i].name;
       h2.setAttribute("class", "title");
       cInfo.textContent =

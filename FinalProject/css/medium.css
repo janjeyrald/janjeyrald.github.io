@@ -116,7 +116,7 @@
 }
 
 .links ul li:hover, .links ul li.active{
-    color: #4abd3e;
+    color: #c44900;
 }
 
 
@@ -144,7 +144,7 @@
     display: inline-block;
 }
 
-.grid-view .view_item .vi_left{
+.grid-view .view_item .left{
     margin-bottom: 10px;
 }
 

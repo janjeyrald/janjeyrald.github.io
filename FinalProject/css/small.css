@@ -405,16 +405,16 @@ section.joinDescription p:nth-child(2){
     margin-bottom: 0;
 }
 
-.list-view .view_item .vi_left{
+.list-view .view_item .left{
     margin-right: 25px;
 }
 
 .view_item .btn{
     width: 125px;
-    background: #4abd3e;
+    background: #c44900;
     color: #fff;
     border-radius: 3px;
-    padding: 10px 5px;
+    padding: 10px 15px;
     text-align: center;
     font-weight: 200;
     margin-top: 10px;
@@ -424,7 +424,7 @@ section.joinDescription p:nth-child(2){
 }
 
 .view_item .btn:hover{
-    background: #3bd62b;
+    background: #FF640A;
 }
 
 /*---------------------------City Page-----------------------*/
