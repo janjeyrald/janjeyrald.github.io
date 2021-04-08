@@ -22,7 +22,11 @@
 
 <body>
     <div id="content">
-        <div id="pancakes"></div>
+        <div class="wAlert">
+            <ul>
+            <li>Weather Alert:&nbsp;<span id="weatherAlert" class="close">&times;</span></li>
+            </ul>
+        </div>
         <header class="clearfix">
 
             <div class="headerContent">
@@ -61,6 +65,7 @@
                     associations representing various sectors of business, all working together to foster a healthier
                     economy and improve the viability of business in the community.</p>
             </section>
+            
 
             <section class="weatherSummary">
                 <h2 class="wSummary">Weather Summary</h2>
@@ -71,37 +76,37 @@
                 <br>
                 <span id="humidity">Humidity:</span> <span id="humidityResult">%</span>
             </section>
-        
-        <div class="fiveDayForeCast">
-        <h2 id="foreCastHeading">3 Day Forecast</h2>
-            <div id="tableForeCast">
-            <table>
-                <thead>
-                <tr>
-                    <th onload="myFunction" id="day1"></th>
-                    <th onload="myFunction" id="day2"></th>
-                    <th onload="myFunction" id="day3"></th>
-                    
-                    
-                </tr>
-                <tbody>
-                    <tr id="tableImg">
-                        <td><img id="imagesrc1"/> &nbsp; <img src="" alt="" id="icon1"></td>
-                        <td><img id="imagesrc2"/> &nbsp; <img src="" alt="" id="icon2"></td>
-                        <td><img id="imagesrc3"/> &nbsp; <img src="" alt="" id="icon3"></td>
-                        
-                    </tr>
-                    <tr>
-                        <td id="fr1"></td>
-                        <td id="fr2"></td>
-                        <td id="fr3"></td>
-                        
-                    </tr>
-                </tbody>
-                </thead>
-            </table>
-            </div>
-            </div>
+
+            <div class="threeDayForeCast">
+                <h2 id="foreCastHeading">3 Day Forecast</h2>
+                    <div id="tableForeCast">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th onload="myFunction" id="day1"></th>
+                            <th onload="myFunction" id="day2"></th>
+                            <th onload="myFunction" id="day3"></th>
+                            
+                            
+                        </tr>
+                        <tbody>
+                            <tr id="tableImg">
+                                <td><img id="img1"/> &nbsp; <img src="" alt="" id="icon1"></td>
+                                <td><img id="img2"/> &nbsp; <img src="" alt="" id="icon2"></td>
+                                <td><img id="img3"/> &nbsp; <img src="" alt="" id="icon3"></td>
+                                
+                            </tr>
+                            <tr>
+                                <td id="fr1"></td>
+                                <td id="fr2"></td>
+                                <td id="fr3"></td>
+                                
+                            </tr>
+                        </tbody>
+                        </thead>
+                    </table>
+                    </div>
+                </div>
             <!-- Homepage 3 Local Business Advertisement -->
             <br>
             <div class="homeAdsContainer">
