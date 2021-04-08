@@ -195,7 +195,7 @@ section.homeDescription p:nth-child(2){
 .homeAds{
     display: flex;
     text-align: center;
-    background-color: #EFD6AC;
+    background-color: whitesmoke;
     padding: 2em;
     margin: auto;
     max-width: 100%;
