@@ -164,7 +164,8 @@ nav ul.hide{
 }
 
 #joinBtn:hover{
-transform: scale(1.2);}
+transform: scale(1.2);
+background-color: #FF640A;}
 
 .homeDescription{
     text-align: center;
