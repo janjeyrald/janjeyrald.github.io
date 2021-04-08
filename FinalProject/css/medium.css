@@ -66,6 +66,18 @@
         flex-direction: row-reverse;
     }
 
+    /*---------------Home Weather Section-----------------------*/
+    
+     
+     #tableForeCast table{
+         text-align: center;
+         margin: auto;
+     }
+     
+     #foreCastHeading{
+        text-align: center;  
+     }
+
     /*---------------------Contact Page--------------------------*/
 
     #acpMap{

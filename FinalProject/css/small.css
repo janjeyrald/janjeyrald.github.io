@@ -170,7 +170,7 @@ nav ul.hide{
 }
 
 section.homeDescription h2:nth-child(1){
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 section.homeDescription p:nth-child(2){
@@ -249,15 +249,29 @@ section.homeDescription p:nth-child(2){
     max-width: 40px;
 }
 /*---------------Home Page Weather Summary 3-day forecast and Alerts--------------*/
+.wWrapper{
+    background: whitesmoke;
+}
+
+#weatherTitle{
+    text-align: center;
+    font-size: 2.5em;
+    color: #172A3A;
+}
+.weatherContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+}
+
 .weatherSummary{
-    text-align: left;
-    background-color: rgba(240, 240, 240, 0.8);
-    padding: 10px;
-    padding-right: 10px;
-    margin-bottom: 3em;
+    text-align: center;
     font-size: 1em;
     color: #172A3A;
     max-width: 100%;
+    line-height: 1.8em;
 }
 
 /* Style the list (remove margins and bullets, etc) */
