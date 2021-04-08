@@ -67,26 +67,21 @@
                 <hr>
                 <span id="currentWeather">Currently:</span> <span id="condition"></span>
                 <br>
-                <span id="temperature">High:</span> <span id="currentTemp"></span>&deg; F </span>
-                <br>
-                <span id="windChill">Wind Chill:</span> <span><span id="windChillInput">&degF</span>
+                <span id="temperature">Temperature:</span> <span id="currentTemp"></span>&deg; C </span>
                 <br>
                 <span id="humidity">Humidity:</span> <span id="humidityResult">%</span>
-                <br>
-                <span id="wind">Wind Speed:</span> <span><span id="windSpeed">5</span> mph</span>
             </section>
         
         <div class="fiveDayForeCast">
-        <h2 id="foreCastHeading">5 Day Forecast</h2>
+        <h2 id="foreCastHeading">3 Day Forecast</h2>
             <div id="tableForeCast">
             <table>
                 <thead>
                 <tr>
-                    <th id="day1"></th>
-                    <th id="day2"></th>
-                    <th id="day3"></th>
-                    <th id="day4"></th>
-                    <th id="day5"></th>
+                    <th onload="myFunction" id="day1"></th>
+                    <th onload="myFunction" id="day2"></th>
+                    <th onload="myFunction" id="day3"></th>
+                    
                     
                 </tr>
                 <tbody>
@@ -94,15 +89,13 @@
                         <td><img id="imagesrc1"/> &nbsp; <img src="" alt="" id="icon1"></td>
                         <td><img id="imagesrc2"/> &nbsp; <img src="" alt="" id="icon2"></td>
                         <td><img id="imagesrc3"/> &nbsp; <img src="" alt="" id="icon3"></td>
-                        <td><img id="imagesrc4"/> &nbsp; <img src="" alt="" id="icon4"></td>
-                        <td><img id="imagesrc5"/> &nbsp; <img src="" alt="" id="icon5"></td>
+                        
                     </tr>
                     <tr>
                         <td id="fr1"></td>
                         <td id="fr2"></td>
                         <td id="fr3"></td>
-                        <td id="fr4"></td>
-                        <td id="fr5"></td>
+                        
                     </tr>
                 </tbody>
                 </thead>
