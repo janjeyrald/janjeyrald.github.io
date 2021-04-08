@@ -282,7 +282,7 @@ section.homeDescription p:nth-child(2){
   
   /* Add a light grey background color on hover */
   div.wAlert ul li:hover {
-    background-color: #ff7424;
+    background-color: #FF640A;
   }
   
   /* Style the close button (span) */
