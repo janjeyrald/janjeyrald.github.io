@@ -36,10 +36,4 @@ document.getElementById("currentyear").textContent = year;
 
 document.getElementById("currentdate").textContent = fulldate;
 
-if (dayName == "Friday"){
-    document.getElementById("pancakes").innerHTML = "Saturday = Preston Pancakes in the Park! 9:00am. Saturday at the city park pavillion.";
-    document.getElementById("pancakes").style.background= "#172A3A";
-    document.getElementById("pancakes").style.height= "50px";
-    document.getElementById("pancakes").style.padding= "15px";
-    document.getElementById("pancakes").style.color= "white";
-}
+
