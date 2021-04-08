@@ -4,7 +4,6 @@ const apiURL =
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
     //Get output the info in current-temp ID from APIURL .main.temp
     document.getElementById("currentTemp").textContent = jsObject.current.temp;
     document.getElementById("humidityResult").textContent =
