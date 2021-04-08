@@ -13,7 +13,7 @@ body{
 /************************Header and Footer*************************/
 
 header{
-    background-color: white;
+    background-color: #EFD6AC;
     color: white;
     text-align: center;
     padding: 2px;
@@ -139,18 +139,20 @@ nav ul.hide{
     position:absolute;
     background-color: rgba(240, 240, 240, 0.8);;
     max-width: auto;
-    top: 150px; 
+    top: 150px;
+    transition: 1s;
+    
 }
 
 #callToAction{
     font-size: 2.3em;
     margin-left: 1em;
     margin-right: 1em;
-    
 }
-#joinBtn:link, #joinBtn:visited{
-    background-color: white;
-    color: #172A3A;
+#joinBtn:link,
+#joinBtn:visited{
+    background-color: #C44900;
+    color: white;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
@@ -158,7 +160,11 @@ nav ul.hide{
     position: relative;
     bottom: 20px;
     left: 30px;
+    
 }
+
+#joinBtn:hover{
+transform: scale(1.2);}
 
 .homeDescription{
     text-align: center;
