@@ -18,9 +18,9 @@ fetch(apiURL)
     const dayOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
     let d = new Date();
-    let day1 = dayOfWeek[d.getDay()];
-    let day2 = dayOfWeek[d.getDay() + 1];
-    let day3 = dayOfWeek[d.getDay() + 2];
+    let day1 = dayOfWeek[(d.getDay() +0)%7];
+    let day2 = dayOfWeek[(d.getDay() +1)%7];
+    let day3 = dayOfWeek[(d.getDay() +2)%7];
 
     document.getElementById("day1").textContent = day1;
     document.getElementById("day2").textContent = day2;
