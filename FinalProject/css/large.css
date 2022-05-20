@@ -1,5 +1,10 @@
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64rem) {
+
+       /* Style the list (remove margins and bullets, etc) */
+    div.wAlert ul {
+    margin-top: 50px;
+  }
     /*-------------------Navigation Menu------------------*/
     nav ul li a{
         border: none;
