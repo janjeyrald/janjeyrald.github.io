@@ -304,6 +304,7 @@ section.homeDescription p:nth-child(2){
     color: white;
     display: block;
     position: relative;
+    height: auto;
   }
   
   /* Add a light grey background color on hover */
